@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">testMAPBOX1</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoicDY3ZjVyZGVsaDZqIiwiYSI6ImNrbTYxczA4MDBqenMycWp4dWdlcnA5c2gifQ.laJh7SdktYcxvrrWLJWydQ</string>
+</resources>
