@@ -6,917 +6,919 @@ class trek5 {
 
     public var trek5Coord: List<Point>? = null
 
-    public fun initTrek3Coordinates():ArrayList<Point> {
+    public fun initTrekCoordinates(): ArrayList<Point> {
         trek5Coord = ArrayList()
 
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.34814390540123,55.961616514250636))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.346392255276442,55.961093567311764))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.344392836093903,55.960538852959871))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.342256708070636,55.959982126951218))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.339803911745548,55.959321968257427))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.336553912609816,55.95815671607852))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.332114605233073,55.956093594431877))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.330037150532007,55.955107295885682))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.326595289632678,55.953258164227009))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.325079841539264,55.952445287257433))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324915640056133,55.952376890927553))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324749678373337,55.95232592895627))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324574328958988,55.952295754104853))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324394872412086,55.952294413000345))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324213907122612,55.952323582023382))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324030762538314,55.952376136556268))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323843343183398,55.952444281429052))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323657600209117,55.952524663880467))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323470180854201,55.952617032453418))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322309790179133,55.953489756211638))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322222869843245,55.953640127554536))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322167884558439,55.953793097287416))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32213762588799,55.953948833048344))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322113234549761,55.954101886600256))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322017261758447,55.954388799145818))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32193193398416,55.954515114426613))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321823304519057,55.954631622880697))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321692882105708,55.95473974943161))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321545109152794,55.954842427745461))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320611868053675,55.955435195937753))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32052712701261,55.955465538427234))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320444900542498,55.95548490062356))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320371307432652,55.955486241728067))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320299139246345,55.955473082140088))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320217834785581,55.95543553121388))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320121610537171,55.955381551757455))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320023039355874,55.955327656120062))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.319008493795991,55.954673532396555))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.319155763834715,55.954336663708091))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.319133216515183,55.954097025096416))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.317710807546973,55.952412765473127))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.31440263800323,55.949744218960404))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.3133594263345,55.948800919577479))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313141915947199,55.948570249602199))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313094893470407,55.948500679805875))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313059940934181,55.94843253493309))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313038567081094,55.948365982621908))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313031861558557,55.948302783071995))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313035381957889,55.948246289044619))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313043009489775,55.948196081444621))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313074273988605,55.948108909651637))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313100090250373,55.948067167773843))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313253227621317,55.947964824736118))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313329670578241,55.947941355407238))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313630664721131,55.947985192760825))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.314990879967809,55.948208067566156))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.31703438796103,55.948321558535099))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.318099057301879,55.948455417528749))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.319637723267078,55.948737049475312))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320937840268016,55.949324201792479))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321683662012219,55.950068347156048))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322451779618859,55.950775947421789))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322532832622528,55.950781228020787))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32261304743588,55.950789945200086))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322721090167761,55.950780473649502))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322821002453566,55.950776198878884))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322922591120005,55.950758764520288))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323018983006477,55.950738228857517))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323115207254887,55.950713669881225))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32321503572166,55.95068265683949))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323312098160386,55.950649715960026))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324008382856846,55.950378561392426))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324091615155339,55.950326593592763))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324171327054501,55.95026096329093))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324238633736968,55.950193656608462))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324297055602074,55.950125847011805))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.325314031913877,55.949019771069288))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.325799679383636,55.94823413528502))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.326723784208298,55.947543382644653))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.327516712248325,55.946777695789933))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.328531090170145,55.945746805518866))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.329295771196485,55.945131741464138))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.329687373712659,55.944732930511236))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.329787285998464,55.943902619183064))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.329833721742034,55.943079013377428))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.33002457767725,55.942126242443919))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.330064224079251,55.941822733730078))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.330051818862557,55.941782165318727))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.330068834125996,55.941390059888363))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.3306954652071,55.940712383016944))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.330929655581713,55.939964381977916))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.330779451876879,55.939669003710151))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.329980572685599,55.93905184417963))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.329643201082945,55.938493525609374))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.329762475565076,55.937906457111239))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.329715872183442,55.937869492918253))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.329644793644547,55.93783512711525))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32877760194242,55.937257781624794))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.328024907037616,55.936776576563716))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.327705975621939,55.936531154438853))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.327027963474393,55.936224544420838))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.326160771772265,55.935600847005844))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.325519137084484,55.934983352199197))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324869371950626,55.934159159660339))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324781697243452,55.933619951829314))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324681952595711,55.933456923812628))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324694106355309,55.933473436161876))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324710283428431,55.93349514529109))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324695028364658,55.933462623506784))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324661584571004,55.933453403413296))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324487576261163,55.933301774784923))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324389005079865,55.933104129508138))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324330499395728,55.932950405403972))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324168644845486,55.932785281911492))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324084658175707,55.932714287191629))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323945770040154,55.932540111243725))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323905704542994,55.932481186464429))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323766313493252,55.932283708825707))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323646703734994,55.932029569521546))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323575541377068,55.931787667796016))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323461547493935,55.931584825739264))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323355516418815,55.931388605386019))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323274463415146,55.9311961568892))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323104981333017,55.930926511064172))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322941534221172,55.93071193434298))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322804657742381,55.930462740361691))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322783954441547,55.930431056767702))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322780769318342,55.930406749248505))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322784960269928,55.930411443114281))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32262528501451,55.930191669613123))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322436105459929,55.930032748728991))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322400733828545,55.929981200024486))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322268383577466,55.929878186434507))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322050789371133,55.929835522547364))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321900418028235,55.929812053218484))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321640662848949,55.929789589717984))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321382751688361,55.92982311733067))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321384428068995,55.929848849773407))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321411836892366,55.929876007139683))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321492806077003,55.929931160062551))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321501523256302,55.929921520873904))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321472270414233,55.929899727925658))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32135727070272,55.929858069866896))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321124840527773,55.929866703227162))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321075387299061,55.929874666035175))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321040937677026,55.929886065423489))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320989556610584,55.929916827008128))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320947563275695,55.929930405691266))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320667523890734,55.929978266358376))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320385556668043,55.929984385147691))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32038639485836,55.929987067356706))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320312298834324,55.929981535300612))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320291930809617,55.929983295500278))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320065451785922,55.930022271350026))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.319845091551542,55.930019253864884))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.319637471809983,55.929999556392431))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.319433204829693,55.929927555844188))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.319219969213009,55.929822446778417))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.318972870707512,55.929775424301624))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.31870356015861,55.92972194775939))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.318616053089499,55.929694622755051))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.318377587944269,55.929557159543037))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.318188743665814,55.929524805396795))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.317933347076178,55.929491026327014))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.317719860002398,55.929414331912994))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.317459937185049,55.929350042715669))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.317288694903255,55.929350210353732))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.317227674648166,55.929321879521012))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.317239828407764,55.92928851954639))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.317265644669533,55.929281478747725))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.317276624962687,55.929260440170765))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.317219125106931,55.929274689406157))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.316936738789082,55.929285753518343))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.316906815394759,55.929292794317007))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.316661980003119,55.929322047159076))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.316422173753381,55.929326908662915))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.316186558455229,55.929276868700981))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.31618320569396,55.92921425588429))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.316072732210159,55.929141668602824))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.316086562350392,55.929117444902658))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.31607960537076,55.929116606712341))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.316166441887617,55.92917712405324))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.316064266487956,55.929232109338045))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.315807193517685,55.929247364401817))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.315604854375124,55.929282484576106))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.315380554646254,55.929210400208831))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.315268237143755,55.92925138771534))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.315119542181492,55.929299918934703))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.315062545239925,55.92933445237577))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.315073274075985,55.929363202303648))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.315011080354452,55.929356161504984))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.314938241615891,55.929327411577106))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.314848806709051,55.929251052439213))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.314718635752797,55.929172933101654))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.31457656249404,55.929190116003156))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.314544375985861,55.929157929494977))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.314561475068331,55.929129347205162))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.314577652141452,55.929149715229869))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.314534233883023,55.929181482642889))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.314398027956486,55.929170753806829))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.31419937685132,55.929170502349734))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.314076079055667,55.929123563691974))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313916571438313,55.929110320284963))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313806852325797,55.929026501253247))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313629491254687,55.928964810445905))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313492698594928,55.928968833759427))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313332017511129,55.928970761597157))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313134707510471,55.928952489048243))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313001602888107,55.928974701091647))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.31288006529212,55.928981322795153))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.312713265419006,55.929009402170777))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.31256976723671,55.929032703861594))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.312467424198985,55.928979897871614))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.31245300732553,55.928992219269276))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.312472285702825,55.929021053016186))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.312352173030376,55.928959110751748))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.312178919091821,55.928946621716022))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.312033576890826,55.928918207064271))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.311883205547929,55.928890127688646))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.31174842454493,55.928922817111015))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.311562765389681,55.928880153223872))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.311451202258468,55.928888618946075))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.311326982453465,55.928902616724372))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.311158590018749,55.928938072174788))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.310983911156654,55.928937820717692))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.31085323728621,55.928932204842567))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.310730190947652,55.928911250084639))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.310583423823118,55.928916363045573))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.310457276180387,55.928941005840898))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.310334900394082,55.928958943113685))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.31019894592464,55.928949471563101))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.310048993676901,55.928947376087308))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.309928126633167,55.928989117965102))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.309782449156046,55.929012252017856))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.309680273756385,55.929041588678956))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.309593185782433,55.929008731618524))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.309567453339696,55.92900269664824))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.309620846062899,55.929027004167438))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.309632999822497,55.928993308916688))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.309640543535352,55.929015520960093))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.309637190774083,55.929021136835217))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.309662252664566,55.928978137671947))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.309624366462231,55.928978975862265))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.309472402557731,55.929014682769775))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.3093824647367,55.929039409384131))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.309278445318341,55.92907503247261))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.309175683185458,55.929110823199153))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.309122541919351,55.929093221202493))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.309091193601489,55.92907159589231))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.309002513065934,55.92912926338613))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30881710536778,55.929174777120352))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.308688862249255,55.929163545370102))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.308628680184484,55.929167065769434))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.308503370732069,55.929149715229869))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.308431873098016,55.929141417145729))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.308378480374813,55.929171591997147))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.308341348543763,55.929237138479948))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.308240849524736,55.929221715778112))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.308239340782166,55.929168490692973))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.308162814006209,55.929178884252906))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.308043958619237,55.929235797375441))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30796835385263,55.929268570616841))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30798838660121,55.929274102672935))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307936921715736,55.929273348301649))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307811444625258,55.929266726598144))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307683201506734,55.929267145693302))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30759116820991,55.929269827902317))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307532746344805,55.929246107116342))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307494860142469,55.929226577281952))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307470971718431,55.929239401593804))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307493854314089,55.929160108789802))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307466948404908,55.929115936160088))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307440042495728,55.929052317515016))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307342393323779,55.929022980853915))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30725203640759,55.928989369422197))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307241475209594,55.929038319736719))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307164026424289,55.929085174575448))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307098396122456,55.929149966686964))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307065287604928,55.929179135710001))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307097557932138,55.929190367460251))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307144664227962,55.92923772521317))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307231752201915,55.92930905520916))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307211719453335,55.929379295557737))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307124631479383,55.929457247257233))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307093869894743,55.929554812610149))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.3070805426687,55.929606864228845))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306987922638655,55.929678613319993))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306969817727804,55.929675847291946))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306962022557855,55.929669812321663))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306944336742163,55.929654808714986))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306899158284068,55.929647767916322))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306962022557855,55.929667381569743))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306997645646334,55.929677607491612))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30699060484767,55.92967358417809))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306991945952177,55.929654976353049))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306943079456687,55.92964525334537))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307022456079721,55.929684732109308))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30694810859859,55.929709291085601))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30686311610043,55.929757487028837))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306822128593922,55.929771149531007))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306760437786579,55.929772909730673))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306779967620969,55.929731000214815))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306816512718797,55.929714906960726))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306790528818965,55.929720439016819))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306838808581233,55.929724043235183))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306910138577223,55.929678613319993))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306978702545166,55.929742734879255))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307001249864697,55.929847341030836))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.3070805426687,55.929956641048193))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307185819372535,55.930033838376403))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307307943701744,55.930101312696934))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307228483259678,55.93015587888658))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307162685319781,55.930219665169716))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307107867673039,55.930263753980398))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30708540417254,55.930286971852183))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307079788297415,55.930283619090915))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307114992290735,55.930281607434154))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307156650349498,55.930271884426475))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307165199890733,55.930290408432484))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307214485481381,55.930341873317957))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307152459397912,55.930401887744665))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307112812995911,55.930421417579055))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30709764175117,55.930451760068536))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30710837058723,55.93054136261344))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307158326730132,55.93057899735868))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307186741381884,55.930557707324624))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307229908183217,55.930623924359679))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307248516008258,55.930676646530628))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307268800213933,55.930741606280208))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307257987558842,55.93075493350625))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307251868769526,55.93076809309423))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307247593998909,55.930753843858838))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307247258722782,55.930738085880876))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307223789393902,55.930743534117937))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307242229580879,55.930743953213096))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307227561250329,55.930728865787387))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307180119678378,55.930719478055835))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307197637856007,55.930747725069523))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307199817150831,55.930751832202077))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307177856564522,55.930712604895234))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307188920676708,55.930726518854499))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307170899584889,55.930740851908922))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307188417762518,55.930729703977704))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307213563472033,55.930702295154333))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307202080264688,55.930727524682879))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.3071513697505,55.930741773918271))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307163774967194,55.930739594623446))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307234602048993,55.930737247690558))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307268381118774,55.930713275447488))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30727014131844,55.930712856352329))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307269806042314,55.930743701756001))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307266872376204,55.930746635422111))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307272655889392,55.930769434198737))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307338789105415,55.930761387571692))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307317918166518,55.930798351764679))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307313643395901,55.930820479989052))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307352535426617,55.93079793266952))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307437360286713,55.930747054517269))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307444484904408,55.930772870779037))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307387655600905,55.930851828306913))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307351613417268,55.930889882147312))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307359576225281,55.930904801934958))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307308865711093,55.930947382003069))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307281792163849,55.930960709229112))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307205684483051,55.930994488298893))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307157907634974,55.931028937920928))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307157488539815,55.93106129206717))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307098647579551,55.931064309552312))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307077692821622,55.931095909327269))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307084482163191,55.931128766387701))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307062773033977,55.931168412789702))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30707174167037,55.931204203516245))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307087080553174,55.931266481056809))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307010050863028,55.931327836588025))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306945761665702,55.931349797174335))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306925812736154,55.931370668113232))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306893039494753,55.93138131313026))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306852638721466,55.931409727782011))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306846519932151,55.931391790509224))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306977193802595,55.931344768032432))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307036621496081,55.931320795789361))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307062605395913,55.931271342560649))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307082219049335,55.931209651753306))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307067383080721,55.931179309263825))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307043997570872,55.93111309222877))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307081548497081,55.931061543524265))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307113399729133,55.93103245832026))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307127732783556,55.931043270975351))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30716897174716,55.931008402258158))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307139551267028,55.930991722270846))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.3072066064924,55.93096012249589))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307312553748488,55.930955093353987))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307329820469022,55.930950650945306))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307375250384212,55.930924667045474))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307400899007916,55.930888038128614))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307456806302071,55.930840680375695))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307469211518764,55.930764656513929))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307447250932455,55.930749820545316))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307457979768515,55.9307592920959))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307484718039632,55.930755017325282))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307439036667347,55.930748227983713))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307391930371523,55.930698439478874))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307339878752828,55.930683519691229))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307269470766187,55.930676478892565))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30723837390542,55.930664911866188))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307234518229961,55.930603221058846))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30719244107604,55.930548990145326))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30721490457654,55.930529711768031))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307212054729462,55.930490484461188))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307195793837309,55.930457878857851))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307185232639313,55.930405240505934))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307176766917109,55.930341705679893))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307188920676708,55.930283786728978))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307207444682717,55.930215809494257))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307289838790894,55.930164763703942))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307280953973532,55.930079016834497))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30720560066402,55.929969381541014))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307121865451336,55.929868966341019))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307025138288736,55.929769808426499))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30694861151278,55.929694287478924))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306940145790577,55.929699232801795))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306933524087071,55.929712560027838))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30699110776186,55.929766790941358))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306951461359859,55.929766958579421))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307010553777218,55.929758073762059))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307052463293076,55.929774586111307))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307070484384894,55.929761007428169))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307088505476713,55.929737538099289))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307117255404592,55.929734269157052))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307130079716444,55.92970484867692))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30713183991611,55.929716918617487))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30711180716753,55.92973711900413))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307153297588229,55.929753463715315))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307155225425959,55.92974298633635))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307127648964524,55.929726306349039))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307161428034306,55.929717337712646))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307170396670699,55.929728401824832))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307166457176208,55.929729407653213))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307162517681718,55.929736448451877))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30714944191277,55.929723037406802))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307107867673039,55.929720858111978))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307083057239652,55.929718092083931))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307095881551504,55.929704010486603))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307099150493741,55.929685151204467))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307147681713104,55.929724210873246))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307167630642653,55.929730664938688))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307137874886394,55.92973854392767))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307117590680718,55.929723037406802))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307132091373205,55.929730078205466))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307138880714774,55.929736867547035))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307129492983222,55.929724127054214))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30711373500526,55.929717421531677))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307087667286396,55.929722199216485))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307046931236982,55.929726893082261))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306975685060024,55.929678613319993))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306997980922461,55.929688839241862))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307075345888734,55.929730832576752))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307107867673039,55.929726893082261))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307102670893073,55.929708369076252))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307095127180219,55.929708033800125))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307120021432638,55.929705603048205))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307124882936478,55.929707949981093))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307101916521788,55.929691269993782))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30708247050643,55.929679283872247))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307102084159851,55.92967945151031))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307116081938148,55.929684061557055))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307119937613606,55.929693030193448))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307105101644993,55.929704429581761))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307084649801254,55.929724210873246))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30706344358623,55.929745249450207))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307051792740822,55.929744495078921))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.3070321790874,55.929731419309974))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307035615667701,55.929736029356718))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307074842974544,55.929737286642194))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307069646194577,55.929726809263229))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307092361152172,55.929713482037187))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30711423791945,55.929697891697288))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307100407779217,55.929696718230844))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307104682549834,55.929701998829842))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307055816054344,55.929731000214815))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307008542120457,55.929744075983763))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307010050863028,55.929728569462895))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307037962600589,55.929726557806134))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307012313976884,55.929703759029508))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307042153552175,55.929713565856218))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307071154937148,55.92971951700747))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307065539062023,55.929700825363398))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307086577638984,55.929707111790776))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30708247050643,55.929684229195118))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307121781632304,55.929672829806805))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307112142443657,55.929676853120327))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307106526568532,55.929670734331012))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307110633701086,55.929661514237523))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307123206555843,55.92967894859612))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307141982018948,55.929723875597119))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307134354487062,55.929741226136684))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30712354183197,55.929708201438189))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307099737226963,55.929687414318323))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30709663592279,55.929719265550375))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307123709470034,55.929750865325332))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307141311466694,55.929710548371077))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307051960378885,55.929656401276588))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307078531011939,55.929669141769409))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307063108310103,55.929646762087941))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307054223492742,55.92961692251265))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306978367269039,55.92966721393168))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30692564509809,55.929617341607809))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306938804686069,55.929619772359729))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.306951796635985,55.929623376578093))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307010218501091,55.929607786238194))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307056235149503,55.929656820371747))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307076351717114,55.929661681875587))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307116584852338,55.929629411548376))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30710543692112,55.929688671603799))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30712111108005,55.929697388783097))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307132259011269,55.929734436795115))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307129492983222,55.929732508957386))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307138545438647,55.929711386561394))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307111639529467,55.929714655503631))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307079872116446,55.929733263328671))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307039638981223,55.929733766242862))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307011391967535,55.929739214479923))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307055732235312,55.929745333269238))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30707224458456,55.929715158417821))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307050032541156,55.92969118617475))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307056989520788,55.929691437631845))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307119937613606,55.929726557806134))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307134019210935,55.929696131497622))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307106526568532,55.929689761251211))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30710350908339,55.92972731217742))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30712253600359,55.929757738485932))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307114908471704,55.92972194775939))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307201577350497,55.92971314676106))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307302160188556,55.929710632190108))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30742353014648,55.929650785401464))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.3075105343014,55.929658329114318))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307527381926775,55.929650450125337))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307592844590545,55.929613905027509))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307757884263992,55.929574593901634))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.307888641953468,55.929504353553057))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.30797958560288,55.929450541734695))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.308000288903713,55.929373679682612))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.308026691898704,55.929308468475938))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.308113109320402,55.929257003590465))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.3081408534199,55.929171843454242))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.3082219902426,55.92918248847127))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.308368505910039,55.929186595603824))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.3084965813905,55.929171172901988))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.308513429015875,55.929144350811839))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.3086744453758,55.929124988615513))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.308645024895668,55.929097328335047))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.308784164488316,55.929085845127702))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.308925064280629,55.929128928110003))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.309009805321693,55.929109314456582))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.309122206643224,55.929062040522695))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.309246594086289,55.929038235917687))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.309379447251558,55.929013676941395))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.309538368135691,55.928983082994819))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.309662420302629,55.928976964205503))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.309735175222158,55.928980652242899))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.309907004237175,55.928957015275955))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.310035917907953,55.928928097710013))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.310188552364707,55.928937820717692))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.310329033061862,55.928898761048913))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.310509327799082,55.928864311426878))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.310706470161676,55.928854336962104))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.310847705230117,55.928850816562772))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.310988940298557,55.928842350840569))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.311152722686529,55.928883841261268))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.311288258060813,55.928906472399831))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.311389511451125,55.928891468793154))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.311591850593686,55.928869508206844))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.311714394018054,55.928890462964773))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.31187105178833,55.928833466023207))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.312029553577304,55.928865987807512))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.312193335965276,55.92892549932003))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.312386203557253,55.928985262289643))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.312516458332539,55.929030608385801))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.312632547691464,55.929025579243898))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.312734806910157,55.928988866508007))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.312848381698132,55.928957769647241))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313010068610311,55.928914686664939))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313074441626668,55.928924912586808))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313130348920822,55.928892809897661))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.3133266530931,55.928908064961433))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313497308641672,55.928880907595158))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313694786280394,55.928914435207844))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313820011913776,55.928980400785804))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313999133184552,55.929049635306001))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.314073396846652,55.929176704958081))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.31412511318922,55.929186092689633))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.314093764871359,55.929183661937714))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.314239023253322,55.929195061326027))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.314241034910083,55.929164886474609))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.314318232238293,55.929146697744727))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.314480673521757,55.929183913394809))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.314647473394871,55.929177962243557))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.31484679505229,55.929259601980448))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.315020132809877,55.92932858504355))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.315187938511372,55.929287010803819))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.315407209098339,55.929244179278612))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.315641567111015,55.929250381886959))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.315856730565429,55.929258679971099))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.316085807979107,55.92926018871367))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.316246824339032,55.929273013025522))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.316501969471574,55.92933151870966))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.316732052713633,55.929347695782781))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.316939001902938,55.92934962362051))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.317147627472878,55.929387928918004))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.31742775067687,55.929418941959739))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.317655067890882,55.929480800405145))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.317970227450132,55.929509131237864))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.318281196057796,55.929566966369748))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.318516978994012,55.929638128727674))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.31879249215126,55.929710883647203))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.31901042163372,55.929763438180089))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.319230530411005,55.929804258048534))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.319598076865077,55.92978447675705))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.319961851462722,55.929809538647532))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320252871140838,55.929860081523657))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320527043193579,55.929936859756708))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320728879421949,55.929937614127994))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320944042876363,55.929918084293604))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321195919066668,55.929869217798114))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32138903811574,55.929818423464894))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321685003116727,55.92976151034236))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321855323389173,55.92976444400847))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321925144642591,55.929800989106297))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321966383606195,55.929829152300954))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321990104392171,55.929841976612806))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32196512632072,55.92984315007925))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322034612298012,55.929840886965394))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32230425812304,55.929853208363056))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322386233136058,55.929897716268897))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32245085760951,55.929993186146021))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322650598362088,55.930121093988419))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322617322206497,55.930136516690254))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322666104882956,55.930176666006446))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322633331641555,55.930216312408447))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322771633043885,55.930252941325307))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322757886722684,55.930254533886909))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322786971926689,55.930350925773382))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322824187576771,55.930362995713949))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322861654683948,55.930461483076215))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322905659675598,55.930541111156344))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322914125397801,55.930606657639146))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323018060997128,55.930764237418771))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323044883087277,55.93077689409256))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323138928040862,55.930777229368687))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323292819783092,55.93079986050725))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323479987680912,55.930747892707586))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323501696810126,55.930734230205417))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323530949652195,55.930698942393064))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323518376797438,55.930738421157002))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323526758700609,55.930715454742312))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323467247188091,55.930701037868857))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323513850569725,55.930689051747322))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32347697019577,55.930698942393064))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323470013216138,55.930741773918271))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32350287027657,55.930716125294566))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323520388454199,55.930678155273199))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323545953258872,55.930669521912932))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323498260229826,55.930693661794066))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323475209996104,55.930688381195068))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323461715131998,55.930707240477204))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323346128687263,55.930730206891894))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323174634948373,55.930792987346649))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323082853108644,55.930775217711926))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323072794824839,55.930848978459835))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323170024901628,55.93094889074564))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323182597756386,55.930967163294554))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323244959115982,55.931099010631442))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323297765105963,55.931222643703222))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323390720412135,55.931360274553299))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323457272723317,55.93148197978735))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323518041521311,55.931631345301867))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323581576347351,55.931759001687169))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323668245226145,55.931877437978983))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323770420625806,55.931945247575641))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323810234665871,55.93205370940268))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323876284062862,55.932233417406678))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323947111144662,55.932387644425035))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324032941833138,55.93250960111618))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324137799441814,55.932679669931531))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324315076693892,55.932820988819003))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32444298453629,55.932932216674089))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324439631775022,55.932995332404971))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324429824948311,55.933139501139522))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324526719748974,55.933285262435675))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324647586792707,55.933308061212301))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324657058343291,55.933361789211631))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32462864369154,55.93333731405437))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324649346992373,55.933341337367892))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324625374749303,55.933372434228659))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324574077501893,55.933347037062049))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324553960934281,55.933357011526823))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324521774426103,55.933327255770564))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324484055861831,55.933328429237008))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324534766376019,55.933298505842686))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324656555429101,55.933218207210302))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32472880743444,55.933226756751537))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324848165735602,55.933256763964891))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324655130505562,55.933309905230999))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324635852128267,55.933433119207621))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32466627843678,55.933513585478067))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324727298691869,55.933627244085073))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324757725000381,55.933728581294417))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324861995875835,55.933794965967536))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324916645884514,55.93370234593749))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324966182932258,55.933675188571215))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324937349185348,55.933720953762531))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324849423021078,55.933751631528139))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324777254834771,55.933789266273379))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324728136882186,55.933783398941159))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324736686423421,55.93379127793014))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324751857668161,55.933798151090741))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324747834354639,55.933821201324463))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32476451434195,55.933875516057014))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324757725000381,55.933811562135816))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324738195165992,55.933818351477385))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324779350310564,55.933902254328132))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324858559295535,55.933820866048336))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324804998934269,55.933859506621957))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.3247757460922,55.933885658159852))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324816649779677,55.933893956243992))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324820421636105,55.933929746970534))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324815643951297,55.933996299281716))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324812961742282,55.933928908780217))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324842214584351,55.93390460126102))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324861157685518,55.933785745874047))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324893260374665,55.933780800551176))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324915556237102,55.933823967352509))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324917567893863,55.933866715058684))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324806926771998,55.933828996494412))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32478940859437,55.93380737118423))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324777506291866,55.933814579620957))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324762586504221,55.933861853554845))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324977666139603,55.934395445510745))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.325406316667795,55.935070188716054))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32606471516192,55.935588274151087))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.326599815860391,55.936054391786456))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.327027712017298,55.936386650428176))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.327100718393922,55.936421267688274))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.327842768281698,55.936700636520982))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.328402679413557,55.937058292329311))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.329165516421199,55.937465988099575))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.329221339896321,55.937508149072528))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32980128377676,55.938004944473505))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.329727942124009,55.938428482040763))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.329813856631517,55.93889300711453))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.330133793875575,55.939342780038714))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.330575352534652,55.939748212695122))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.330781714990735,55.940070329234004))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.330779200419784,55.940113412216306))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.330697476863861,55.940625043585896))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.330180145800114,55.941257709637284))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.330132368952036,55.941300876438618))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.330094901844859,55.941345971077681))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.329922402277589,55.941659370437264))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32989214360714,55.942149711772799))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.329894239082932,55.942639214918017))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.329690391197801,55.943247657269239))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.329699527472258,55.943904798477888))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.329674633219838,55.94439203850925))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.329456871375442,55.944967707619071))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.329049175605178,55.945404907688498))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.328218361362815,55.946137150749564))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.327376734465361,55.94700769521296))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.326668379828334,55.947624687105417))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.325823316350579,55.94829473644495))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.325305314734578,55.948874680325389))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324756383895874,55.949536515399814))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323867902159691,55.950282923877239))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323536816984415,55.950423320755363))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32292041182518,55.950586013495922))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32283927500248,55.950599675998092))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322764676064253,55.950607303529978))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322689658030868,55.950612667948008))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322607934474945,55.950612835586071))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322521265596151,55.950607135891914))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322434596717358,55.95059615559876))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322350358590484,55.95057955943048))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322184732183814,55.950536308810115))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322106529027224,55.950509402900934))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321926653385162,55.950430445373058))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321872841566801,55.950396414846182))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321823220700026,55.9503557626158))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321294574066997,55.949734915047884))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320821918547153,55.949370553717017))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320748576894403,55.949335601180792))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.319409484043717,55.948869064450264))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.317731929942966,55.94848869368434))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.316143894568086,55.948321726173162))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.314386544749141,55.948222484439611))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.31379235163331,55.948215862736106))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313707778230309,55.948228100314736))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.31363158673048,55.948246456682682))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.3135631904006,55.948267579078674))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313504852354527,55.948288617655635))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313230093568563,55.948455166071653))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313226740807295,55.948505457490683))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313250796869397,55.948568740859628))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313305698335171,55.948641328141093))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.313384739682078,55.948723386973143))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.314319489523768,55.949545064941049))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.316048173233867,55.950970826670527))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.318703224882483,55.953157665207982))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.319682314991951,55.954081434756517))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.31978096999228,55.954233398661017))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.319857580587268,55.954384272918105))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320209369063377,55.955218775197864))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320257062092423,55.955278789624572))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32031112536788,55.9553187713027))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320373235270381,55.955341067165136))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320439787581563,55.955343581736088))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320541962981224,55.95529236830771))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320655873045325,55.955223301425576))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.320772213861346,55.955148031935096))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321549970656633,55.95469968393445))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32169103808701,55.954589294269681))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321814754977822,55.954468091949821))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.321920031681657,55.95434051938355))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322007203474641,55.954201044514775))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322062104940414,55.954035585746169))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32209999114275,55.953863924369216))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322272574529052,55.953346509486437))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322428561747074,55.953177195042372))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322622016072273,55.953012574464083))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.322826534509659,55.952861700206995))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323035076260567,55.952729852870107))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323239846155047,55.952621642500162))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323436485603452,55.952537907287478))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323622144758701,55.952466828748584))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323804702609777,55.952404970303178))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.323972759768367,55.952354008331895))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324268305674195,55.952299777418375))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32440241612494,55.952287958934903))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324525881558657,55.952288545668125))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324631661176682,55.952300280332565))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324725119397044,55.952314361929893))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.324815643951297,55.952331963926554))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.3249018099159,55.952353673055768))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.32498730532825,55.952380076050758))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.325075315311551,55.95241142436862))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.325948709622025,55.952835967764258))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.327712681144476,55.953710032626987))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.329753087833524,55.954639753326774))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.332808040082455,55.956044560298324))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.335855700075626,55.957573922351003))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.339473916217685,55.959172267466784))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.342732967808843,55.960022360086441))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.345817675814033,55.96087739802897))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.34829637221992,55.961598660796881))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.349571846425533,55.961850201711059))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.349781394004822,55.961857996881008))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.349994461983442,55.961855063214898))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.350199818611145,55.961835365742445))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.350395284593105,55.961800999939442))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.350584967061877,55.961751798167825))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.350771967321634,55.961687257513404))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.350959135219455,55.961612155660987))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.352226646617055,55.961139416322112))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.352497717365623,55.961117874830961))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.35277222469449,55.96111779101193))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.353056203573942,55.96113639883697))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.353354515507817,55.961173865944147))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.353644529357553,55.961223402991891))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.353928172960877,55.961280651390553))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.356302430853248,55.961823798716068))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.357715284451842,55.962088331580162))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.357992641627789,55.962109621614218))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.358266478404403,55.962115656584501))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.358539560809731,55.962104089558125))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.358812391757965,55.962072405964136))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.359085977077484,55.962022952735424))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.35935746692121,55.961950700730085))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.359601883217692,55.961869563907385))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.359836157411337,55.961785577237606))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.361802635714412,55.960827777162194))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.36396717838943,55.959891770035028))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.365927621722221,55.959021477028728))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.367039984092116,55.958509761840105))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.368657859042287,55.95791389234364))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.368844859302044,55.957886567339301))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.369032027199864,55.95787382684648))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.369217937812209,55.957871228456497))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.369400830939412,55.957870641723275))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.370434990152717,55.957880700007081))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.371293129399419,55.957858236506581))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.373129772022367,55.95779319293797))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.373694963753223,55.957769639790058))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.374410778284073,55.957735609263182))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.376354709267616,55.957690514624119))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.378594689071178,55.957680456340313))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.379404213279486,55.957670984789729))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.379789026454091,55.957517428323627))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.379768406972289,55.957463616505265))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.379763796925545,55.957215344533324))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.379714511334896,55.9571682382375))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.379700345918536,55.957186259329319))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.379730017855763,55.957185672596097))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.379752062261105,55.957193886861205))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.379874689504504,55.957226995378733))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.37999421544373,55.957287596538663))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.380077363923192,55.957339480519295))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.380052469670773,55.957322549074888))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.380080632865429,55.957288518548012))
-        (trek5Coord as ArrayList<Point>).add(Point.fromLngLat(92.380019025877118,55.957314670085907))
+        val trek5Coord = ArrayList(listOf<Point>(
+                Point.fromLngLat(92.34814390540123, 55.961616514250636),
+                Point.fromLngLat(92.346392255276442, 55.961093567311764),
+                Point.fromLngLat(92.344392836093903, 55.960538852959871),
+                Point.fromLngLat(92.342256708070636, 55.959982126951218),
+                Point.fromLngLat(92.339803911745548, 55.959321968257427),
+                Point.fromLngLat(92.336553912609816, 55.95815671607852),
+                Point.fromLngLat(92.332114605233073, 55.956093594431877),
+                Point.fromLngLat(92.330037150532007, 55.955107295885682),
+                Point.fromLngLat(92.326595289632678, 55.953258164227009),
+                Point.fromLngLat(92.325079841539264, 55.952445287257433),
+                Point.fromLngLat(92.324915640056133, 55.952376890927553),
+                Point.fromLngLat(92.324749678373337, 55.95232592895627),
+                Point.fromLngLat(92.324574328958988, 55.952295754104853),
+                Point.fromLngLat(92.324394872412086, 55.952294413000345),
+                Point.fromLngLat(92.324213907122612, 55.952323582023382),
+                Point.fromLngLat(92.324030762538314, 55.952376136556268),
+                Point.fromLngLat(92.323843343183398, 55.952444281429052),
+                Point.fromLngLat(92.323657600209117, 55.952524663880467),
+                Point.fromLngLat(92.323470180854201, 55.952617032453418),
+                Point.fromLngLat(92.322309790179133, 55.953489756211638),
+                Point.fromLngLat(92.322222869843245, 55.953640127554536),
+                Point.fromLngLat(92.322167884558439, 55.953793097287416),
+                Point.fromLngLat(92.32213762588799, 55.953948833048344),
+                Point.fromLngLat(92.322113234549761, 55.954101886600256),
+                Point.fromLngLat(92.322017261758447, 55.954388799145818),
+                Point.fromLngLat(92.32193193398416, 55.954515114426613),
+                Point.fromLngLat(92.321823304519057, 55.954631622880697),
+                Point.fromLngLat(92.321692882105708, 55.95473974943161),
+                Point.fromLngLat(92.321545109152794, 55.954842427745461),
+                Point.fromLngLat(92.320611868053675, 55.955435195937753),
+                Point.fromLngLat(92.32052712701261, 55.955465538427234),
+                Point.fromLngLat(92.320444900542498, 55.95548490062356),
+                Point.fromLngLat(92.320371307432652, 55.955486241728067),
+                Point.fromLngLat(92.320299139246345, 55.955473082140088),
+                Point.fromLngLat(92.320217834785581, 55.95543553121388),
+                Point.fromLngLat(92.320121610537171, 55.955381551757455),
+                Point.fromLngLat(92.320023039355874, 55.955327656120062),
+                Point.fromLngLat(92.319008493795991, 55.954673532396555),
+                Point.fromLngLat(92.319155763834715, 55.954336663708091),
+                Point.fromLngLat(92.319133216515183, 55.954097025096416),
+                Point.fromLngLat(92.317710807546973, 55.952412765473127),
+                Point.fromLngLat(92.31440263800323, 55.949744218960404),
+                Point.fromLngLat(92.3133594263345, 55.948800919577479),
+                Point.fromLngLat(92.313141915947199, 55.948570249602199),
+                Point.fromLngLat(92.313094893470407, 55.948500679805875),
+                Point.fromLngLat(92.313059940934181, 55.94843253493309),
+                Point.fromLngLat(92.313038567081094, 55.948365982621908),
+                Point.fromLngLat(92.313031861558557, 55.948302783071995),
+                Point.fromLngLat(92.313035381957889, 55.948246289044619),
+                Point.fromLngLat(92.313043009489775, 55.948196081444621),
+                Point.fromLngLat(92.313074273988605, 55.948108909651637),
+                Point.fromLngLat(92.313100090250373, 55.948067167773843),
+                Point.fromLngLat(92.313253227621317, 55.947964824736118),
+                Point.fromLngLat(92.313329670578241, 55.947941355407238),
+                Point.fromLngLat(92.313630664721131, 55.947985192760825),
+                Point.fromLngLat(92.314990879967809, 55.948208067566156),
+                Point.fromLngLat(92.31703438796103, 55.948321558535099),
+                Point.fromLngLat(92.318099057301879, 55.948455417528749),
+                Point.fromLngLat(92.319637723267078, 55.948737049475312),
+                Point.fromLngLat(92.320937840268016, 55.949324201792479),
+                Point.fromLngLat(92.321683662012219, 55.950068347156048),
+                Point.fromLngLat(92.322451779618859, 55.950775947421789),
+                Point.fromLngLat(92.322532832622528, 55.950781228020787),
+                Point.fromLngLat(92.32261304743588, 55.950789945200086),
+                Point.fromLngLat(92.322721090167761, 55.950780473649502),
+                Point.fromLngLat(92.322821002453566, 55.950776198878884),
+                Point.fromLngLat(92.322922591120005, 55.950758764520288),
+                Point.fromLngLat(92.323018983006477, 55.950738228857517),
+                Point.fromLngLat(92.323115207254887, 55.950713669881225),
+                Point.fromLngLat(92.32321503572166, 55.95068265683949),
+                Point.fromLngLat(92.323312098160386, 55.950649715960026),
+                Point.fromLngLat(92.324008382856846, 55.950378561392426),
+                Point.fromLngLat(92.324091615155339, 55.950326593592763),
+                Point.fromLngLat(92.324171327054501, 55.95026096329093),
+                Point.fromLngLat(92.324238633736968, 55.950193656608462),
+                Point.fromLngLat(92.324297055602074, 55.950125847011805),
+                Point.fromLngLat(92.325314031913877, 55.949019771069288),
+                Point.fromLngLat(92.325799679383636, 55.94823413528502),
+                Point.fromLngLat(92.326723784208298, 55.947543382644653),
+                Point.fromLngLat(92.327516712248325, 55.946777695789933),
+                Point.fromLngLat(92.328531090170145, 55.945746805518866),
+                Point.fromLngLat(92.329295771196485, 55.945131741464138),
+                Point.fromLngLat(92.329687373712659, 55.944732930511236),
+                Point.fromLngLat(92.329787285998464, 55.943902619183064),
+                Point.fromLngLat(92.329833721742034, 55.943079013377428),
+                Point.fromLngLat(92.33002457767725, 55.942126242443919),
+                Point.fromLngLat(92.330064224079251, 55.941822733730078),
+                Point.fromLngLat(92.330051818862557, 55.941782165318727),
+                Point.fromLngLat(92.330068834125996, 55.941390059888363),
+                Point.fromLngLat(92.3306954652071, 55.940712383016944),
+                Point.fromLngLat(92.330929655581713, 55.939964381977916),
+                Point.fromLngLat(92.330779451876879, 55.939669003710151),
+                Point.fromLngLat(92.329980572685599, 55.93905184417963),
+                Point.fromLngLat(92.329643201082945, 55.938493525609374),
+                Point.fromLngLat(92.329762475565076, 55.937906457111239),
+                Point.fromLngLat(92.329715872183442, 55.937869492918253),
+                Point.fromLngLat(92.329644793644547, 55.93783512711525),
+                Point.fromLngLat(92.32877760194242, 55.937257781624794),
+                Point.fromLngLat(92.328024907037616, 55.936776576563716),
+                Point.fromLngLat(92.327705975621939, 55.936531154438853),
+                Point.fromLngLat(92.327027963474393, 55.936224544420838),
+                Point.fromLngLat(92.326160771772265, 55.935600847005844),
+                Point.fromLngLat(92.325519137084484, 55.934983352199197),
+                Point.fromLngLat(92.324869371950626, 55.934159159660339),
+                Point.fromLngLat(92.324781697243452, 55.933619951829314),
+                Point.fromLngLat(92.324681952595711, 55.933456923812628),
+                Point.fromLngLat(92.324694106355309, 55.933473436161876),
+                Point.fromLngLat(92.324710283428431, 55.93349514529109),
+                Point.fromLngLat(92.324695028364658, 55.933462623506784),
+                Point.fromLngLat(92.324661584571004, 55.933453403413296),
+                Point.fromLngLat(92.324487576261163, 55.933301774784923),
+                Point.fromLngLat(92.324389005079865, 55.933104129508138),
+                Point.fromLngLat(92.324330499395728, 55.932950405403972),
+                Point.fromLngLat(92.324168644845486, 55.932785281911492),
+                Point.fromLngLat(92.324084658175707, 55.932714287191629),
+                Point.fromLngLat(92.323945770040154, 55.932540111243725),
+                Point.fromLngLat(92.323905704542994, 55.932481186464429),
+                Point.fromLngLat(92.323766313493252, 55.932283708825707),
+                Point.fromLngLat(92.323646703734994, 55.932029569521546),
+                Point.fromLngLat(92.323575541377068, 55.931787667796016),
+                Point.fromLngLat(92.323461547493935, 55.931584825739264),
+                Point.fromLngLat(92.323355516418815, 55.931388605386019),
+                Point.fromLngLat(92.323274463415146, 55.9311961568892),
+                Point.fromLngLat(92.323104981333017, 55.930926511064172),
+                Point.fromLngLat(92.322941534221172, 55.93071193434298),
+                Point.fromLngLat(92.322804657742381, 55.930462740361691),
+                Point.fromLngLat(92.322783954441547, 55.930431056767702),
+                Point.fromLngLat(92.322780769318342, 55.930406749248505),
+                Point.fromLngLat(92.322784960269928, 55.930411443114281),
+                Point.fromLngLat(92.32262528501451, 55.930191669613123),
+                Point.fromLngLat(92.322436105459929, 55.930032748728991),
+                Point.fromLngLat(92.322400733828545, 55.929981200024486),
+                Point.fromLngLat(92.322268383577466, 55.929878186434507),
+                Point.fromLngLat(92.322050789371133, 55.929835522547364),
+                Point.fromLngLat(92.321900418028235, 55.929812053218484),
+                Point.fromLngLat(92.321640662848949, 55.929789589717984),
+                Point.fromLngLat(92.321382751688361, 55.92982311733067),
+                Point.fromLngLat(92.321384428068995, 55.929848849773407),
+                Point.fromLngLat(92.321411836892366, 55.929876007139683),
+                Point.fromLngLat(92.321492806077003, 55.929931160062551),
+                Point.fromLngLat(92.321501523256302, 55.929921520873904),
+                Point.fromLngLat(92.321472270414233, 55.929899727925658),
+                Point.fromLngLat(92.32135727070272, 55.929858069866896),
+                Point.fromLngLat(92.321124840527773, 55.929866703227162),
+                Point.fromLngLat(92.321075387299061, 55.929874666035175),
+                Point.fromLngLat(92.321040937677026, 55.929886065423489),
+                Point.fromLngLat(92.320989556610584, 55.929916827008128),
+                Point.fromLngLat(92.320947563275695, 55.929930405691266),
+                Point.fromLngLat(92.320667523890734, 55.929978266358376),
+                Point.fromLngLat(92.320385556668043, 55.929984385147691),
+                Point.fromLngLat(92.32038639485836, 55.929987067356706),
+                Point.fromLngLat(92.320312298834324, 55.929981535300612),
+                Point.fromLngLat(92.320291930809617, 55.929983295500278),
+                Point.fromLngLat(92.320065451785922, 55.930022271350026),
+                Point.fromLngLat(92.319845091551542, 55.930019253864884),
+                Point.fromLngLat(92.319637471809983, 55.929999556392431),
+                Point.fromLngLat(92.319433204829693, 55.929927555844188),
+                Point.fromLngLat(92.319219969213009, 55.929822446778417),
+                Point.fromLngLat(92.318972870707512, 55.929775424301624),
+                Point.fromLngLat(92.31870356015861, 55.92972194775939),
+                Point.fromLngLat(92.318616053089499, 55.929694622755051),
+                Point.fromLngLat(92.318377587944269, 55.929557159543037),
+                Point.fromLngLat(92.318188743665814, 55.929524805396795),
+                Point.fromLngLat(92.317933347076178, 55.929491026327014),
+                Point.fromLngLat(92.317719860002398, 55.929414331912994),
+                Point.fromLngLat(92.317459937185049, 55.929350042715669),
+                Point.fromLngLat(92.317288694903255, 55.929350210353732),
+                Point.fromLngLat(92.317227674648166, 55.929321879521012),
+                Point.fromLngLat(92.317239828407764, 55.92928851954639),
+                Point.fromLngLat(92.317265644669533, 55.929281478747725),
+                Point.fromLngLat(92.317276624962687, 55.929260440170765),
+                Point.fromLngLat(92.317219125106931, 55.929274689406157),
+                Point.fromLngLat(92.316936738789082, 55.929285753518343),
+                Point.fromLngLat(92.316906815394759, 55.929292794317007),
+                Point.fromLngLat(92.316661980003119, 55.929322047159076),
+                Point.fromLngLat(92.316422173753381, 55.929326908662915),
+                Point.fromLngLat(92.316186558455229, 55.929276868700981),
+                Point.fromLngLat(92.31618320569396, 55.92921425588429),
+                Point.fromLngLat(92.316072732210159, 55.929141668602824),
+                Point.fromLngLat(92.316086562350392, 55.929117444902658),
+                Point.fromLngLat(92.31607960537076, 55.929116606712341),
+                Point.fromLngLat(92.316166441887617, 55.92917712405324),
+                Point.fromLngLat(92.316064266487956, 55.929232109338045),
+                Point.fromLngLat(92.315807193517685, 55.929247364401817),
+                Point.fromLngLat(92.315604854375124, 55.929282484576106),
+                Point.fromLngLat(92.315380554646254, 55.929210400208831),
+                Point.fromLngLat(92.315268237143755, 55.92925138771534),
+                Point.fromLngLat(92.315119542181492, 55.929299918934703),
+                Point.fromLngLat(92.315062545239925, 55.92933445237577),
+                Point.fromLngLat(92.315073274075985, 55.929363202303648),
+                Point.fromLngLat(92.315011080354452, 55.929356161504984),
+                Point.fromLngLat(92.314938241615891, 55.929327411577106),
+                Point.fromLngLat(92.314848806709051, 55.929251052439213),
+                Point.fromLngLat(92.314718635752797, 55.929172933101654),
+                Point.fromLngLat(92.31457656249404, 55.929190116003156),
+                Point.fromLngLat(92.314544375985861, 55.929157929494977),
+                Point.fromLngLat(92.314561475068331, 55.929129347205162),
+                Point.fromLngLat(92.314577652141452, 55.929149715229869),
+                Point.fromLngLat(92.314534233883023, 55.929181482642889),
+                Point.fromLngLat(92.314398027956486, 55.929170753806829),
+                Point.fromLngLat(92.31419937685132, 55.929170502349734),
+                Point.fromLngLat(92.314076079055667, 55.929123563691974),
+                Point.fromLngLat(92.313916571438313, 55.929110320284963),
+                Point.fromLngLat(92.313806852325797, 55.929026501253247),
+                Point.fromLngLat(92.313629491254687, 55.928964810445905),
+                Point.fromLngLat(92.313492698594928, 55.928968833759427),
+                Point.fromLngLat(92.313332017511129, 55.928970761597157),
+                Point.fromLngLat(92.313134707510471, 55.928952489048243),
+                Point.fromLngLat(92.313001602888107, 55.928974701091647),
+                Point.fromLngLat(92.31288006529212, 55.928981322795153),
+                Point.fromLngLat(92.312713265419006, 55.929009402170777),
+                Point.fromLngLat(92.31256976723671, 55.929032703861594),
+                Point.fromLngLat(92.312467424198985, 55.928979897871614),
+                Point.fromLngLat(92.31245300732553, 55.928992219269276),
+                Point.fromLngLat(92.312472285702825, 55.929021053016186),
+                Point.fromLngLat(92.312352173030376, 55.928959110751748),
+                Point.fromLngLat(92.312178919091821, 55.928946621716022),
+                Point.fromLngLat(92.312033576890826, 55.928918207064271),
+                Point.fromLngLat(92.311883205547929, 55.928890127688646),
+                Point.fromLngLat(92.31174842454493, 55.928922817111015),
+                Point.fromLngLat(92.311562765389681, 55.928880153223872),
+                Point.fromLngLat(92.311451202258468, 55.928888618946075),
+                Point.fromLngLat(92.311326982453465, 55.928902616724372),
+                Point.fromLngLat(92.311158590018749, 55.928938072174788),
+                Point.fromLngLat(92.310983911156654, 55.928937820717692),
+                Point.fromLngLat(92.31085323728621, 55.928932204842567),
+                Point.fromLngLat(92.310730190947652, 55.928911250084639),
+                Point.fromLngLat(92.310583423823118, 55.928916363045573),
+                Point.fromLngLat(92.310457276180387, 55.928941005840898),
+                Point.fromLngLat(92.310334900394082, 55.928958943113685),
+                Point.fromLngLat(92.31019894592464, 55.928949471563101),
+                Point.fromLngLat(92.310048993676901, 55.928947376087308),
+                Point.fromLngLat(92.309928126633167, 55.928989117965102),
+                Point.fromLngLat(92.309782449156046, 55.929012252017856),
+                Point.fromLngLat(92.309680273756385, 55.929041588678956),
+                Point.fromLngLat(92.309593185782433, 55.929008731618524),
+                Point.fromLngLat(92.309567453339696, 55.92900269664824),
+                Point.fromLngLat(92.309620846062899, 55.929027004167438),
+                Point.fromLngLat(92.309632999822497, 55.928993308916688),
+                Point.fromLngLat(92.309640543535352, 55.929015520960093),
+                Point.fromLngLat(92.309637190774083, 55.929021136835217),
+                Point.fromLngLat(92.309662252664566, 55.928978137671947),
+                Point.fromLngLat(92.309624366462231, 55.928978975862265),
+                Point.fromLngLat(92.309472402557731, 55.929014682769775),
+                Point.fromLngLat(92.3093824647367, 55.929039409384131),
+                Point.fromLngLat(92.309278445318341, 55.92907503247261),
+                Point.fromLngLat(92.309175683185458, 55.929110823199153),
+                Point.fromLngLat(92.309122541919351, 55.929093221202493),
+                Point.fromLngLat(92.309091193601489, 55.92907159589231),
+                Point.fromLngLat(92.309002513065934, 55.92912926338613),
+                Point.fromLngLat(92.30881710536778, 55.929174777120352),
+                Point.fromLngLat(92.308688862249255, 55.929163545370102),
+                Point.fromLngLat(92.308628680184484, 55.929167065769434),
+                Point.fromLngLat(92.308503370732069, 55.929149715229869),
+                Point.fromLngLat(92.308431873098016, 55.929141417145729),
+                Point.fromLngLat(92.308378480374813, 55.929171591997147),
+                Point.fromLngLat(92.308341348543763, 55.929237138479948),
+                Point.fromLngLat(92.308240849524736, 55.929221715778112),
+                Point.fromLngLat(92.308239340782166, 55.929168490692973),
+                Point.fromLngLat(92.308162814006209, 55.929178884252906),
+                Point.fromLngLat(92.308043958619237, 55.929235797375441),
+                Point.fromLngLat(92.30796835385263, 55.929268570616841),
+                Point.fromLngLat(92.30798838660121, 55.929274102672935),
+                Point.fromLngLat(92.307936921715736, 55.929273348301649),
+                Point.fromLngLat(92.307811444625258, 55.929266726598144),
+                Point.fromLngLat(92.307683201506734, 55.929267145693302),
+                Point.fromLngLat(92.30759116820991, 55.929269827902317),
+                Point.fromLngLat(92.307532746344805, 55.929246107116342),
+                Point.fromLngLat(92.307494860142469, 55.929226577281952),
+                Point.fromLngLat(92.307470971718431, 55.929239401593804),
+                Point.fromLngLat(92.307493854314089, 55.929160108789802),
+                Point.fromLngLat(92.307466948404908, 55.929115936160088),
+                Point.fromLngLat(92.307440042495728, 55.929052317515016),
+                Point.fromLngLat(92.307342393323779, 55.929022980853915),
+                Point.fromLngLat(92.30725203640759, 55.928989369422197),
+                Point.fromLngLat(92.307241475209594, 55.929038319736719),
+                Point.fromLngLat(92.307164026424289, 55.929085174575448),
+                Point.fromLngLat(92.307098396122456, 55.929149966686964),
+                Point.fromLngLat(92.307065287604928, 55.929179135710001),
+                Point.fromLngLat(92.307097557932138, 55.929190367460251),
+                Point.fromLngLat(92.307144664227962, 55.92923772521317),
+                Point.fromLngLat(92.307231752201915, 55.92930905520916),
+                Point.fromLngLat(92.307211719453335, 55.929379295557737),
+                Point.fromLngLat(92.307124631479383, 55.929457247257233),
+                Point.fromLngLat(92.307093869894743, 55.929554812610149),
+                Point.fromLngLat(92.3070805426687, 55.929606864228845),
+                Point.fromLngLat(92.306987922638655, 55.929678613319993),
+                Point.fromLngLat(92.306969817727804, 55.929675847291946),
+                Point.fromLngLat(92.306962022557855, 55.929669812321663),
+                Point.fromLngLat(92.306944336742163, 55.929654808714986),
+                Point.fromLngLat(92.306899158284068, 55.929647767916322),
+                Point.fromLngLat(92.306962022557855, 55.929667381569743),
+                Point.fromLngLat(92.306997645646334, 55.929677607491612),
+                Point.fromLngLat(92.30699060484767, 55.92967358417809),
+                Point.fromLngLat(92.306991945952177, 55.929654976353049),
+                Point.fromLngLat(92.306943079456687, 55.92964525334537),
+                Point.fromLngLat(92.307022456079721, 55.929684732109308),
+                Point.fromLngLat(92.30694810859859, 55.929709291085601),
+                Point.fromLngLat(92.30686311610043, 55.929757487028837),
+                Point.fromLngLat(92.306822128593922, 55.929771149531007),
+                Point.fromLngLat(92.306760437786579, 55.929772909730673),
+                Point.fromLngLat(92.306779967620969, 55.929731000214815),
+                Point.fromLngLat(92.306816512718797, 55.929714906960726),
+                Point.fromLngLat(92.306790528818965, 55.929720439016819),
+                Point.fromLngLat(92.306838808581233, 55.929724043235183),
+                Point.fromLngLat(92.306910138577223, 55.929678613319993),
+                Point.fromLngLat(92.306978702545166, 55.929742734879255),
+                Point.fromLngLat(92.307001249864697, 55.929847341030836),
+                Point.fromLngLat(92.3070805426687, 55.929956641048193),
+                Point.fromLngLat(92.307185819372535, 55.930033838376403),
+                Point.fromLngLat(92.307307943701744, 55.930101312696934),
+                Point.fromLngLat(92.307228483259678, 55.93015587888658),
+                Point.fromLngLat(92.307162685319781, 55.930219665169716),
+                Point.fromLngLat(92.307107867673039, 55.930263753980398),
+                Point.fromLngLat(92.30708540417254, 55.930286971852183),
+                Point.fromLngLat(92.307079788297415, 55.930283619090915),
+                Point.fromLngLat(92.307114992290735, 55.930281607434154),
+                Point.fromLngLat(92.307156650349498, 55.930271884426475),
+                Point.fromLngLat(92.307165199890733, 55.930290408432484),
+                Point.fromLngLat(92.307214485481381, 55.930341873317957),
+                Point.fromLngLat(92.307152459397912, 55.930401887744665),
+                Point.fromLngLat(92.307112812995911, 55.930421417579055),
+                Point.fromLngLat(92.30709764175117, 55.930451760068536),
+                Point.fromLngLat(92.30710837058723, 55.93054136261344),
+                Point.fromLngLat(92.307158326730132, 55.93057899735868),
+                Point.fromLngLat(92.307186741381884, 55.930557707324624),
+                Point.fromLngLat(92.307229908183217, 55.930623924359679),
+                Point.fromLngLat(92.307248516008258, 55.930676646530628),
+                Point.fromLngLat(92.307268800213933, 55.930741606280208),
+                Point.fromLngLat(92.307257987558842, 55.93075493350625),
+                Point.fromLngLat(92.307251868769526, 55.93076809309423),
+                Point.fromLngLat(92.307247593998909, 55.930753843858838),
+                Point.fromLngLat(92.307247258722782, 55.930738085880876),
+                Point.fromLngLat(92.307223789393902, 55.930743534117937),
+                Point.fromLngLat(92.307242229580879, 55.930743953213096),
+                Point.fromLngLat(92.307227561250329, 55.930728865787387),
+                Point.fromLngLat(92.307180119678378, 55.930719478055835),
+                Point.fromLngLat(92.307197637856007, 55.930747725069523),
+                Point.fromLngLat(92.307199817150831, 55.930751832202077),
+                Point.fromLngLat(92.307177856564522, 55.930712604895234),
+                Point.fromLngLat(92.307188920676708, 55.930726518854499),
+                Point.fromLngLat(92.307170899584889, 55.930740851908922),
+                Point.fromLngLat(92.307188417762518, 55.930729703977704),
+                Point.fromLngLat(92.307213563472033, 55.930702295154333),
+                Point.fromLngLat(92.307202080264688, 55.930727524682879),
+                Point.fromLngLat(92.3071513697505, 55.930741773918271),
+                Point.fromLngLat(92.307163774967194, 55.930739594623446),
+                Point.fromLngLat(92.307234602048993, 55.930737247690558),
+                Point.fromLngLat(92.307268381118774, 55.930713275447488),
+                Point.fromLngLat(92.30727014131844, 55.930712856352329),
+                Point.fromLngLat(92.307269806042314, 55.930743701756001),
+                Point.fromLngLat(92.307266872376204, 55.930746635422111),
+                Point.fromLngLat(92.307272655889392, 55.930769434198737),
+                Point.fromLngLat(92.307338789105415, 55.930761387571692),
+                Point.fromLngLat(92.307317918166518, 55.930798351764679),
+                Point.fromLngLat(92.307313643395901, 55.930820479989052),
+                Point.fromLngLat(92.307352535426617, 55.93079793266952),
+                Point.fromLngLat(92.307437360286713, 55.930747054517269),
+                Point.fromLngLat(92.307444484904408, 55.930772870779037),
+                Point.fromLngLat(92.307387655600905, 55.930851828306913),
+                Point.fromLngLat(92.307351613417268, 55.930889882147312),
+                Point.fromLngLat(92.307359576225281, 55.930904801934958),
+                Point.fromLngLat(92.307308865711093, 55.930947382003069),
+                Point.fromLngLat(92.307281792163849, 55.930960709229112),
+                Point.fromLngLat(92.307205684483051, 55.930994488298893),
+                Point.fromLngLat(92.307157907634974, 55.931028937920928),
+                Point.fromLngLat(92.307157488539815, 55.93106129206717),
+                Point.fromLngLat(92.307098647579551, 55.931064309552312),
+                Point.fromLngLat(92.307077692821622, 55.931095909327269),
+                Point.fromLngLat(92.307084482163191, 55.931128766387701),
+                Point.fromLngLat(92.307062773033977, 55.931168412789702),
+                Point.fromLngLat(92.30707174167037, 55.931204203516245),
+                Point.fromLngLat(92.307087080553174, 55.931266481056809),
+                Point.fromLngLat(92.307010050863028, 55.931327836588025),
+                Point.fromLngLat(92.306945761665702, 55.931349797174335),
+                Point.fromLngLat(92.306925812736154, 55.931370668113232),
+                Point.fromLngLat(92.306893039494753, 55.93138131313026),
+                Point.fromLngLat(92.306852638721466, 55.931409727782011),
+                Point.fromLngLat(92.306846519932151, 55.931391790509224),
+                Point.fromLngLat(92.306977193802595, 55.931344768032432),
+                Point.fromLngLat(92.307036621496081, 55.931320795789361),
+                Point.fromLngLat(92.307062605395913, 55.931271342560649),
+                Point.fromLngLat(92.307082219049335, 55.931209651753306),
+                Point.fromLngLat(92.307067383080721, 55.931179309263825),
+                Point.fromLngLat(92.307043997570872, 55.93111309222877),
+                Point.fromLngLat(92.307081548497081, 55.931061543524265),
+                Point.fromLngLat(92.307113399729133, 55.93103245832026),
+                Point.fromLngLat(92.307127732783556, 55.931043270975351),
+                Point.fromLngLat(92.30716897174716, 55.931008402258158),
+                Point.fromLngLat(92.307139551267028, 55.930991722270846),
+                Point.fromLngLat(92.3072066064924, 55.93096012249589),
+                Point.fromLngLat(92.307312553748488, 55.930955093353987),
+                Point.fromLngLat(92.307329820469022, 55.930950650945306),
+                Point.fromLngLat(92.307375250384212, 55.930924667045474),
+                Point.fromLngLat(92.307400899007916, 55.930888038128614),
+                Point.fromLngLat(92.307456806302071, 55.930840680375695),
+                Point.fromLngLat(92.307469211518764, 55.930764656513929),
+                Point.fromLngLat(92.307447250932455, 55.930749820545316),
+                Point.fromLngLat(92.307457979768515, 55.9307592920959),
+                Point.fromLngLat(92.307484718039632, 55.930755017325282),
+                Point.fromLngLat(92.307439036667347, 55.930748227983713),
+                Point.fromLngLat(92.307391930371523, 55.930698439478874),
+                Point.fromLngLat(92.307339878752828, 55.930683519691229),
+                Point.fromLngLat(92.307269470766187, 55.930676478892565),
+                Point.fromLngLat(92.30723837390542, 55.930664911866188),
+                Point.fromLngLat(92.307234518229961, 55.930603221058846),
+                Point.fromLngLat(92.30719244107604, 55.930548990145326),
+                Point.fromLngLat(92.30721490457654, 55.930529711768031),
+                Point.fromLngLat(92.307212054729462, 55.930490484461188),
+                Point.fromLngLat(92.307195793837309, 55.930457878857851),
+                Point.fromLngLat(92.307185232639313, 55.930405240505934),
+                Point.fromLngLat(92.307176766917109, 55.930341705679893),
+                Point.fromLngLat(92.307188920676708, 55.930283786728978),
+                Point.fromLngLat(92.307207444682717, 55.930215809494257),
+                Point.fromLngLat(92.307289838790894, 55.930164763703942),
+                Point.fromLngLat(92.307280953973532, 55.930079016834497),
+                Point.fromLngLat(92.30720560066402, 55.929969381541014),
+                Point.fromLngLat(92.307121865451336, 55.929868966341019),
+                Point.fromLngLat(92.307025138288736, 55.929769808426499),
+                Point.fromLngLat(92.30694861151278, 55.929694287478924),
+                Point.fromLngLat(92.306940145790577, 55.929699232801795),
+                Point.fromLngLat(92.306933524087071, 55.929712560027838),
+                Point.fromLngLat(92.30699110776186, 55.929766790941358),
+                Point.fromLngLat(92.306951461359859, 55.929766958579421),
+                Point.fromLngLat(92.307010553777218, 55.929758073762059),
+                Point.fromLngLat(92.307052463293076, 55.929774586111307),
+                Point.fromLngLat(92.307070484384894, 55.929761007428169),
+                Point.fromLngLat(92.307088505476713, 55.929737538099289),
+                Point.fromLngLat(92.307117255404592, 55.929734269157052),
+                Point.fromLngLat(92.307130079716444, 55.92970484867692),
+                Point.fromLngLat(92.30713183991611, 55.929716918617487),
+                Point.fromLngLat(92.30711180716753, 55.92973711900413),
+                Point.fromLngLat(92.307153297588229, 55.929753463715315),
+                Point.fromLngLat(92.307155225425959, 55.92974298633635),
+                Point.fromLngLat(92.307127648964524, 55.929726306349039),
+                Point.fromLngLat(92.307161428034306, 55.929717337712646),
+                Point.fromLngLat(92.307170396670699, 55.929728401824832),
+                Point.fromLngLat(92.307166457176208, 55.929729407653213),
+                Point.fromLngLat(92.307162517681718, 55.929736448451877),
+                Point.fromLngLat(92.30714944191277, 55.929723037406802),
+                Point.fromLngLat(92.307107867673039, 55.929720858111978),
+                Point.fromLngLat(92.307083057239652, 55.929718092083931),
+                Point.fromLngLat(92.307095881551504, 55.929704010486603),
+                Point.fromLngLat(92.307099150493741, 55.929685151204467),
+                Point.fromLngLat(92.307147681713104, 55.929724210873246),
+                Point.fromLngLat(92.307167630642653, 55.929730664938688),
+                Point.fromLngLat(92.307137874886394, 55.92973854392767),
+                Point.fromLngLat(92.307117590680718, 55.929723037406802),
+                Point.fromLngLat(92.307132091373205, 55.929730078205466),
+                Point.fromLngLat(92.307138880714774, 55.929736867547035),
+                Point.fromLngLat(92.307129492983222, 55.929724127054214),
+                Point.fromLngLat(92.30711373500526, 55.929717421531677),
+                Point.fromLngLat(92.307087667286396, 55.929722199216485),
+                Point.fromLngLat(92.307046931236982, 55.929726893082261),
+                Point.fromLngLat(92.306975685060024, 55.929678613319993),
+                Point.fromLngLat(92.306997980922461, 55.929688839241862),
+                Point.fromLngLat(92.307075345888734, 55.929730832576752),
+                Point.fromLngLat(92.307107867673039, 55.929726893082261),
+                Point.fromLngLat(92.307102670893073, 55.929708369076252),
+                Point.fromLngLat(92.307095127180219, 55.929708033800125),
+                Point.fromLngLat(92.307120021432638, 55.929705603048205),
+                Point.fromLngLat(92.307124882936478, 55.929707949981093),
+                Point.fromLngLat(92.307101916521788, 55.929691269993782),
+                Point.fromLngLat(92.30708247050643, 55.929679283872247),
+                Point.fromLngLat(92.307102084159851, 55.92967945151031),
+                Point.fromLngLat(92.307116081938148, 55.929684061557055),
+                Point.fromLngLat(92.307119937613606, 55.929693030193448),
+                Point.fromLngLat(92.307105101644993, 55.929704429581761),
+                Point.fromLngLat(92.307084649801254, 55.929724210873246),
+                Point.fromLngLat(92.30706344358623, 55.929745249450207),
+                Point.fromLngLat(92.307051792740822, 55.929744495078921),
+                Point.fromLngLat(92.3070321790874, 55.929731419309974),
+                Point.fromLngLat(92.307035615667701, 55.929736029356718),
+                Point.fromLngLat(92.307074842974544, 55.929737286642194),
+                Point.fromLngLat(92.307069646194577, 55.929726809263229),
+                Point.fromLngLat(92.307092361152172, 55.929713482037187),
+                Point.fromLngLat(92.30711423791945, 55.929697891697288),
+                Point.fromLngLat(92.307100407779217, 55.929696718230844),
+                Point.fromLngLat(92.307104682549834, 55.929701998829842),
+                Point.fromLngLat(92.307055816054344, 55.929731000214815),
+                Point.fromLngLat(92.307008542120457, 55.929744075983763),
+                Point.fromLngLat(92.307010050863028, 55.929728569462895),
+                Point.fromLngLat(92.307037962600589, 55.929726557806134),
+                Point.fromLngLat(92.307012313976884, 55.929703759029508),
+                Point.fromLngLat(92.307042153552175, 55.929713565856218),
+                Point.fromLngLat(92.307071154937148, 55.92971951700747),
+                Point.fromLngLat(92.307065539062023, 55.929700825363398),
+                Point.fromLngLat(92.307086577638984, 55.929707111790776),
+                Point.fromLngLat(92.30708247050643, 55.929684229195118),
+                Point.fromLngLat(92.307121781632304, 55.929672829806805),
+                Point.fromLngLat(92.307112142443657, 55.929676853120327),
+                Point.fromLngLat(92.307106526568532, 55.929670734331012),
+                Point.fromLngLat(92.307110633701086, 55.929661514237523),
+                Point.fromLngLat(92.307123206555843, 55.92967894859612),
+                Point.fromLngLat(92.307141982018948, 55.929723875597119),
+                Point.fromLngLat(92.307134354487062, 55.929741226136684),
+                Point.fromLngLat(92.30712354183197, 55.929708201438189),
+                Point.fromLngLat(92.307099737226963, 55.929687414318323),
+                Point.fromLngLat(92.30709663592279, 55.929719265550375),
+                Point.fromLngLat(92.307123709470034, 55.929750865325332),
+                Point.fromLngLat(92.307141311466694, 55.929710548371077),
+                Point.fromLngLat(92.307051960378885, 55.929656401276588),
+                Point.fromLngLat(92.307078531011939, 55.929669141769409),
+                Point.fromLngLat(92.307063108310103, 55.929646762087941),
+                Point.fromLngLat(92.307054223492742, 55.92961692251265),
+                Point.fromLngLat(92.306978367269039, 55.92966721393168),
+                Point.fromLngLat(92.30692564509809, 55.929617341607809),
+                Point.fromLngLat(92.306938804686069, 55.929619772359729),
+                Point.fromLngLat(92.306951796635985, 55.929623376578093),
+                Point.fromLngLat(92.307010218501091, 55.929607786238194),
+                Point.fromLngLat(92.307056235149503, 55.929656820371747),
+                Point.fromLngLat(92.307076351717114, 55.929661681875587),
+                Point.fromLngLat(92.307116584852338, 55.929629411548376),
+                Point.fromLngLat(92.30710543692112, 55.929688671603799),
+                Point.fromLngLat(92.30712111108005, 55.929697388783097),
+                Point.fromLngLat(92.307132259011269, 55.929734436795115),
+                Point.fromLngLat(92.307129492983222, 55.929732508957386),
+                Point.fromLngLat(92.307138545438647, 55.929711386561394),
+                Point.fromLngLat(92.307111639529467, 55.929714655503631),
+                Point.fromLngLat(92.307079872116446, 55.929733263328671),
+                Point.fromLngLat(92.307039638981223, 55.929733766242862),
+                Point.fromLngLat(92.307011391967535, 55.929739214479923),
+                Point.fromLngLat(92.307055732235312, 55.929745333269238),
+                Point.fromLngLat(92.30707224458456, 55.929715158417821),
+                Point.fromLngLat(92.307050032541156, 55.92969118617475),
+                Point.fromLngLat(92.307056989520788, 55.929691437631845),
+                Point.fromLngLat(92.307119937613606, 55.929726557806134),
+                Point.fromLngLat(92.307134019210935, 55.929696131497622),
+                Point.fromLngLat(92.307106526568532, 55.929689761251211),
+                Point.fromLngLat(92.30710350908339, 55.92972731217742),
+                Point.fromLngLat(92.30712253600359, 55.929757738485932),
+                Point.fromLngLat(92.307114908471704, 55.92972194775939),
+                Point.fromLngLat(92.307201577350497, 55.92971314676106),
+                Point.fromLngLat(92.307302160188556, 55.929710632190108),
+                Point.fromLngLat(92.30742353014648, 55.929650785401464),
+                Point.fromLngLat(92.3075105343014, 55.929658329114318),
+                Point.fromLngLat(92.307527381926775, 55.929650450125337),
+                Point.fromLngLat(92.307592844590545, 55.929613905027509),
+                Point.fromLngLat(92.307757884263992, 55.929574593901634),
+                Point.fromLngLat(92.307888641953468, 55.929504353553057),
+                Point.fromLngLat(92.30797958560288, 55.929450541734695),
+                Point.fromLngLat(92.308000288903713, 55.929373679682612),
+                Point.fromLngLat(92.308026691898704, 55.929308468475938),
+                Point.fromLngLat(92.308113109320402, 55.929257003590465),
+                Point.fromLngLat(92.3081408534199, 55.929171843454242),
+                Point.fromLngLat(92.3082219902426, 55.92918248847127),
+                Point.fromLngLat(92.308368505910039, 55.929186595603824),
+                Point.fromLngLat(92.3084965813905, 55.929171172901988),
+                Point.fromLngLat(92.308513429015875, 55.929144350811839),
+                Point.fromLngLat(92.3086744453758, 55.929124988615513),
+                Point.fromLngLat(92.308645024895668, 55.929097328335047),
+                Point.fromLngLat(92.308784164488316, 55.929085845127702),
+                Point.fromLngLat(92.308925064280629, 55.929128928110003),
+                Point.fromLngLat(92.309009805321693, 55.929109314456582),
+                Point.fromLngLat(92.309122206643224, 55.929062040522695),
+                Point.fromLngLat(92.309246594086289, 55.929038235917687),
+                Point.fromLngLat(92.309379447251558, 55.929013676941395),
+                Point.fromLngLat(92.309538368135691, 55.928983082994819),
+                Point.fromLngLat(92.309662420302629, 55.928976964205503),
+                Point.fromLngLat(92.309735175222158, 55.928980652242899),
+                Point.fromLngLat(92.309907004237175, 55.928957015275955),
+                Point.fromLngLat(92.310035917907953, 55.928928097710013),
+                Point.fromLngLat(92.310188552364707, 55.928937820717692),
+                Point.fromLngLat(92.310329033061862, 55.928898761048913),
+                Point.fromLngLat(92.310509327799082, 55.928864311426878),
+                Point.fromLngLat(92.310706470161676, 55.928854336962104),
+                Point.fromLngLat(92.310847705230117, 55.928850816562772),
+                Point.fromLngLat(92.310988940298557, 55.928842350840569),
+                Point.fromLngLat(92.311152722686529, 55.928883841261268),
+                Point.fromLngLat(92.311288258060813, 55.928906472399831),
+                Point.fromLngLat(92.311389511451125, 55.928891468793154),
+                Point.fromLngLat(92.311591850593686, 55.928869508206844),
+                Point.fromLngLat(92.311714394018054, 55.928890462964773),
+                Point.fromLngLat(92.31187105178833, 55.928833466023207),
+                Point.fromLngLat(92.312029553577304, 55.928865987807512),
+                Point.fromLngLat(92.312193335965276, 55.92892549932003),
+                Point.fromLngLat(92.312386203557253, 55.928985262289643),
+                Point.fromLngLat(92.312516458332539, 55.929030608385801),
+                Point.fromLngLat(92.312632547691464, 55.929025579243898),
+                Point.fromLngLat(92.312734806910157, 55.928988866508007),
+                Point.fromLngLat(92.312848381698132, 55.928957769647241),
+                Point.fromLngLat(92.313010068610311, 55.928914686664939),
+                Point.fromLngLat(92.313074441626668, 55.928924912586808),
+                Point.fromLngLat(92.313130348920822, 55.928892809897661),
+                Point.fromLngLat(92.3133266530931, 55.928908064961433),
+                Point.fromLngLat(92.313497308641672, 55.928880907595158),
+                Point.fromLngLat(92.313694786280394, 55.928914435207844),
+                Point.fromLngLat(92.313820011913776, 55.928980400785804),
+                Point.fromLngLat(92.313999133184552, 55.929049635306001),
+                Point.fromLngLat(92.314073396846652, 55.929176704958081),
+                Point.fromLngLat(92.31412511318922, 55.929186092689633),
+                Point.fromLngLat(92.314093764871359, 55.929183661937714),
+                Point.fromLngLat(92.314239023253322, 55.929195061326027),
+                Point.fromLngLat(92.314241034910083, 55.929164886474609),
+                Point.fromLngLat(92.314318232238293, 55.929146697744727),
+                Point.fromLngLat(92.314480673521757, 55.929183913394809),
+                Point.fromLngLat(92.314647473394871, 55.929177962243557),
+                Point.fromLngLat(92.31484679505229, 55.929259601980448),
+                Point.fromLngLat(92.315020132809877, 55.92932858504355),
+                Point.fromLngLat(92.315187938511372, 55.929287010803819),
+                Point.fromLngLat(92.315407209098339, 55.929244179278612),
+                Point.fromLngLat(92.315641567111015, 55.929250381886959),
+                Point.fromLngLat(92.315856730565429, 55.929258679971099),
+                Point.fromLngLat(92.316085807979107, 55.92926018871367),
+                Point.fromLngLat(92.316246824339032, 55.929273013025522),
+                Point.fromLngLat(92.316501969471574, 55.92933151870966),
+                Point.fromLngLat(92.316732052713633, 55.929347695782781),
+                Point.fromLngLat(92.316939001902938, 55.92934962362051),
+                Point.fromLngLat(92.317147627472878, 55.929387928918004),
+                Point.fromLngLat(92.31742775067687, 55.929418941959739),
+                Point.fromLngLat(92.317655067890882, 55.929480800405145),
+                Point.fromLngLat(92.317970227450132, 55.929509131237864),
+                Point.fromLngLat(92.318281196057796, 55.929566966369748),
+                Point.fromLngLat(92.318516978994012, 55.929638128727674),
+                Point.fromLngLat(92.31879249215126, 55.929710883647203),
+                Point.fromLngLat(92.31901042163372, 55.929763438180089),
+                Point.fromLngLat(92.319230530411005, 55.929804258048534),
+                Point.fromLngLat(92.319598076865077, 55.92978447675705),
+                Point.fromLngLat(92.319961851462722, 55.929809538647532),
+                Point.fromLngLat(92.320252871140838, 55.929860081523657),
+                Point.fromLngLat(92.320527043193579, 55.929936859756708),
+                Point.fromLngLat(92.320728879421949, 55.929937614127994),
+                Point.fromLngLat(92.320944042876363, 55.929918084293604),
+                Point.fromLngLat(92.321195919066668, 55.929869217798114),
+                Point.fromLngLat(92.32138903811574, 55.929818423464894),
+                Point.fromLngLat(92.321685003116727, 55.92976151034236),
+                Point.fromLngLat(92.321855323389173, 55.92976444400847),
+                Point.fromLngLat(92.321925144642591, 55.929800989106297),
+                Point.fromLngLat(92.321966383606195, 55.929829152300954),
+                Point.fromLngLat(92.321990104392171, 55.929841976612806),
+                Point.fromLngLat(92.32196512632072, 55.92984315007925),
+                Point.fromLngLat(92.322034612298012, 55.929840886965394),
+                Point.fromLngLat(92.32230425812304, 55.929853208363056),
+                Point.fromLngLat(92.322386233136058, 55.929897716268897),
+                Point.fromLngLat(92.32245085760951, 55.929993186146021),
+                Point.fromLngLat(92.322650598362088, 55.930121093988419),
+                Point.fromLngLat(92.322617322206497, 55.930136516690254),
+                Point.fromLngLat(92.322666104882956, 55.930176666006446),
+                Point.fromLngLat(92.322633331641555, 55.930216312408447),
+                Point.fromLngLat(92.322771633043885, 55.930252941325307),
+                Point.fromLngLat(92.322757886722684, 55.930254533886909),
+                Point.fromLngLat(92.322786971926689, 55.930350925773382),
+                Point.fromLngLat(92.322824187576771, 55.930362995713949),
+                Point.fromLngLat(92.322861654683948, 55.930461483076215),
+                Point.fromLngLat(92.322905659675598, 55.930541111156344),
+                Point.fromLngLat(92.322914125397801, 55.930606657639146),
+                Point.fromLngLat(92.323018060997128, 55.930764237418771),
+                Point.fromLngLat(92.323044883087277, 55.93077689409256),
+                Point.fromLngLat(92.323138928040862, 55.930777229368687),
+                Point.fromLngLat(92.323292819783092, 55.93079986050725),
+                Point.fromLngLat(92.323479987680912, 55.930747892707586),
+                Point.fromLngLat(92.323501696810126, 55.930734230205417),
+                Point.fromLngLat(92.323530949652195, 55.930698942393064),
+                Point.fromLngLat(92.323518376797438, 55.930738421157002),
+                Point.fromLngLat(92.323526758700609, 55.930715454742312),
+                Point.fromLngLat(92.323467247188091, 55.930701037868857),
+                Point.fromLngLat(92.323513850569725, 55.930689051747322),
+                Point.fromLngLat(92.32347697019577, 55.930698942393064),
+                Point.fromLngLat(92.323470013216138, 55.930741773918271),
+                Point.fromLngLat(92.32350287027657, 55.930716125294566),
+                Point.fromLngLat(92.323520388454199, 55.930678155273199),
+                Point.fromLngLat(92.323545953258872, 55.930669521912932),
+                Point.fromLngLat(92.323498260229826, 55.930693661794066),
+                Point.fromLngLat(92.323475209996104, 55.930688381195068),
+                Point.fromLngLat(92.323461715131998, 55.930707240477204),
+                Point.fromLngLat(92.323346128687263, 55.930730206891894),
+                Point.fromLngLat(92.323174634948373, 55.930792987346649),
+                Point.fromLngLat(92.323082853108644, 55.930775217711926),
+                Point.fromLngLat(92.323072794824839, 55.930848978459835),
+                Point.fromLngLat(92.323170024901628, 55.93094889074564),
+                Point.fromLngLat(92.323182597756386, 55.930967163294554),
+                Point.fromLngLat(92.323244959115982, 55.931099010631442),
+                Point.fromLngLat(92.323297765105963, 55.931222643703222),
+                Point.fromLngLat(92.323390720412135, 55.931360274553299),
+                Point.fromLngLat(92.323457272723317, 55.93148197978735),
+                Point.fromLngLat(92.323518041521311, 55.931631345301867),
+                Point.fromLngLat(92.323581576347351, 55.931759001687169),
+                Point.fromLngLat(92.323668245226145, 55.931877437978983),
+                Point.fromLngLat(92.323770420625806, 55.931945247575641),
+                Point.fromLngLat(92.323810234665871, 55.93205370940268),
+                Point.fromLngLat(92.323876284062862, 55.932233417406678),
+                Point.fromLngLat(92.323947111144662, 55.932387644425035),
+                Point.fromLngLat(92.324032941833138, 55.93250960111618),
+                Point.fromLngLat(92.324137799441814, 55.932679669931531),
+                Point.fromLngLat(92.324315076693892, 55.932820988819003),
+                Point.fromLngLat(92.32444298453629, 55.932932216674089),
+                Point.fromLngLat(92.324439631775022, 55.932995332404971),
+                Point.fromLngLat(92.324429824948311, 55.933139501139522),
+                Point.fromLngLat(92.324526719748974, 55.933285262435675),
+                Point.fromLngLat(92.324647586792707, 55.933308061212301),
+                Point.fromLngLat(92.324657058343291, 55.933361789211631),
+                Point.fromLngLat(92.32462864369154, 55.93333731405437),
+                Point.fromLngLat(92.324649346992373, 55.933341337367892),
+                Point.fromLngLat(92.324625374749303, 55.933372434228659),
+                Point.fromLngLat(92.324574077501893, 55.933347037062049),
+                Point.fromLngLat(92.324553960934281, 55.933357011526823),
+                Point.fromLngLat(92.324521774426103, 55.933327255770564),
+                Point.fromLngLat(92.324484055861831, 55.933328429237008),
+                Point.fromLngLat(92.324534766376019, 55.933298505842686),
+                Point.fromLngLat(92.324656555429101, 55.933218207210302),
+                Point.fromLngLat(92.32472880743444, 55.933226756751537),
+                Point.fromLngLat(92.324848165735602, 55.933256763964891),
+                Point.fromLngLat(92.324655130505562, 55.933309905230999),
+                Point.fromLngLat(92.324635852128267, 55.933433119207621),
+                Point.fromLngLat(92.32466627843678, 55.933513585478067),
+                Point.fromLngLat(92.324727298691869, 55.933627244085073),
+                Point.fromLngLat(92.324757725000381, 55.933728581294417),
+                Point.fromLngLat(92.324861995875835, 55.933794965967536),
+                Point.fromLngLat(92.324916645884514, 55.93370234593749),
+                Point.fromLngLat(92.324966182932258, 55.933675188571215),
+                Point.fromLngLat(92.324937349185348, 55.933720953762531),
+                Point.fromLngLat(92.324849423021078, 55.933751631528139),
+                Point.fromLngLat(92.324777254834771, 55.933789266273379),
+                Point.fromLngLat(92.324728136882186, 55.933783398941159),
+                Point.fromLngLat(92.324736686423421, 55.93379127793014),
+                Point.fromLngLat(92.324751857668161, 55.933798151090741),
+                Point.fromLngLat(92.324747834354639, 55.933821201324463),
+                Point.fromLngLat(92.32476451434195, 55.933875516057014),
+                Point.fromLngLat(92.324757725000381, 55.933811562135816),
+                Point.fromLngLat(92.324738195165992, 55.933818351477385),
+                Point.fromLngLat(92.324779350310564, 55.933902254328132),
+                Point.fromLngLat(92.324858559295535, 55.933820866048336),
+                Point.fromLngLat(92.324804998934269, 55.933859506621957),
+                Point.fromLngLat(92.3247757460922, 55.933885658159852),
+                Point.fromLngLat(92.324816649779677, 55.933893956243992),
+                Point.fromLngLat(92.324820421636105, 55.933929746970534),
+                Point.fromLngLat(92.324815643951297, 55.933996299281716),
+                Point.fromLngLat(92.324812961742282, 55.933928908780217),
+                Point.fromLngLat(92.324842214584351, 55.93390460126102),
+                Point.fromLngLat(92.324861157685518, 55.933785745874047),
+                Point.fromLngLat(92.324893260374665, 55.933780800551176),
+                Point.fromLngLat(92.324915556237102, 55.933823967352509),
+                Point.fromLngLat(92.324917567893863, 55.933866715058684),
+                Point.fromLngLat(92.324806926771998, 55.933828996494412),
+                Point.fromLngLat(92.32478940859437, 55.93380737118423),
+                Point.fromLngLat(92.324777506291866, 55.933814579620957),
+                Point.fromLngLat(92.324762586504221, 55.933861853554845),
+                Point.fromLngLat(92.324977666139603, 55.934395445510745),
+                Point.fromLngLat(92.325406316667795, 55.935070188716054),
+                Point.fromLngLat(92.32606471516192, 55.935588274151087),
+                Point.fromLngLat(92.326599815860391, 55.936054391786456),
+                Point.fromLngLat(92.327027712017298, 55.936386650428176),
+                Point.fromLngLat(92.327100718393922, 55.936421267688274),
+                Point.fromLngLat(92.327842768281698, 55.936700636520982),
+                Point.fromLngLat(92.328402679413557, 55.937058292329311),
+                Point.fromLngLat(92.329165516421199, 55.937465988099575),
+                Point.fromLngLat(92.329221339896321, 55.937508149072528),
+                Point.fromLngLat(92.32980128377676, 55.938004944473505),
+                Point.fromLngLat(92.329727942124009, 55.938428482040763),
+                Point.fromLngLat(92.329813856631517, 55.93889300711453),
+                Point.fromLngLat(92.330133793875575, 55.939342780038714),
+                Point.fromLngLat(92.330575352534652, 55.939748212695122),
+                Point.fromLngLat(92.330781714990735, 55.940070329234004),
+                Point.fromLngLat(92.330779200419784, 55.940113412216306),
+                Point.fromLngLat(92.330697476863861, 55.940625043585896),
+                Point.fromLngLat(92.330180145800114, 55.941257709637284),
+                Point.fromLngLat(92.330132368952036, 55.941300876438618),
+                Point.fromLngLat(92.330094901844859, 55.941345971077681),
+                Point.fromLngLat(92.329922402277589, 55.941659370437264),
+                Point.fromLngLat(92.32989214360714, 55.942149711772799),
+                Point.fromLngLat(92.329894239082932, 55.942639214918017),
+                Point.fromLngLat(92.329690391197801, 55.943247657269239),
+                Point.fromLngLat(92.329699527472258, 55.943904798477888),
+                Point.fromLngLat(92.329674633219838, 55.94439203850925),
+                Point.fromLngLat(92.329456871375442, 55.944967707619071),
+                Point.fromLngLat(92.329049175605178, 55.945404907688498),
+                Point.fromLngLat(92.328218361362815, 55.946137150749564),
+                Point.fromLngLat(92.327376734465361, 55.94700769521296),
+                Point.fromLngLat(92.326668379828334, 55.947624687105417),
+                Point.fromLngLat(92.325823316350579, 55.94829473644495),
+                Point.fromLngLat(92.325305314734578, 55.948874680325389),
+                Point.fromLngLat(92.324756383895874, 55.949536515399814),
+                Point.fromLngLat(92.323867902159691, 55.950282923877239),
+                Point.fromLngLat(92.323536816984415, 55.950423320755363),
+                Point.fromLngLat(92.32292041182518, 55.950586013495922),
+                Point.fromLngLat(92.32283927500248, 55.950599675998092),
+                Point.fromLngLat(92.322764676064253, 55.950607303529978),
+                Point.fromLngLat(92.322689658030868, 55.950612667948008),
+                Point.fromLngLat(92.322607934474945, 55.950612835586071),
+                Point.fromLngLat(92.322521265596151, 55.950607135891914),
+                Point.fromLngLat(92.322434596717358, 55.95059615559876),
+                Point.fromLngLat(92.322350358590484, 55.95057955943048),
+                Point.fromLngLat(92.322184732183814, 55.950536308810115),
+                Point.fromLngLat(92.322106529027224, 55.950509402900934),
+                Point.fromLngLat(92.321926653385162, 55.950430445373058),
+                Point.fromLngLat(92.321872841566801, 55.950396414846182),
+                Point.fromLngLat(92.321823220700026, 55.9503557626158),
+                Point.fromLngLat(92.321294574066997, 55.949734915047884),
+                Point.fromLngLat(92.320821918547153, 55.949370553717017),
+                Point.fromLngLat(92.320748576894403, 55.949335601180792),
+                Point.fromLngLat(92.319409484043717, 55.948869064450264),
+                Point.fromLngLat(92.317731929942966, 55.94848869368434),
+                Point.fromLngLat(92.316143894568086, 55.948321726173162),
+                Point.fromLngLat(92.314386544749141, 55.948222484439611),
+                Point.fromLngLat(92.31379235163331, 55.948215862736106),
+                Point.fromLngLat(92.313707778230309, 55.948228100314736),
+                Point.fromLngLat(92.31363158673048, 55.948246456682682),
+                Point.fromLngLat(92.3135631904006, 55.948267579078674),
+                Point.fromLngLat(92.313504852354527, 55.948288617655635),
+                Point.fromLngLat(92.313230093568563, 55.948455166071653),
+                Point.fromLngLat(92.313226740807295, 55.948505457490683),
+                Point.fromLngLat(92.313250796869397, 55.948568740859628),
+                Point.fromLngLat(92.313305698335171, 55.948641328141093),
+                Point.fromLngLat(92.313384739682078, 55.948723386973143),
+                Point.fromLngLat(92.314319489523768, 55.949545064941049),
+                Point.fromLngLat(92.316048173233867, 55.950970826670527),
+                Point.fromLngLat(92.318703224882483, 55.953157665207982),
+                Point.fromLngLat(92.319682314991951, 55.954081434756517),
+                Point.fromLngLat(92.31978096999228, 55.954233398661017),
+                Point.fromLngLat(92.319857580587268, 55.954384272918105),
+                Point.fromLngLat(92.320209369063377, 55.955218775197864),
+                Point.fromLngLat(92.320257062092423, 55.955278789624572),
+                Point.fromLngLat(92.32031112536788, 55.9553187713027),
+                Point.fromLngLat(92.320373235270381, 55.955341067165136),
+                Point.fromLngLat(92.320439787581563, 55.955343581736088),
+                Point.fromLngLat(92.320541962981224, 55.95529236830771),
+                Point.fromLngLat(92.320655873045325, 55.955223301425576),
+                Point.fromLngLat(92.320772213861346, 55.955148031935096),
+                Point.fromLngLat(92.321549970656633, 55.95469968393445),
+                Point.fromLngLat(92.32169103808701, 55.954589294269681),
+                Point.fromLngLat(92.321814754977822, 55.954468091949821),
+                Point.fromLngLat(92.321920031681657, 55.95434051938355),
+                Point.fromLngLat(92.322007203474641, 55.954201044514775),
+                Point.fromLngLat(92.322062104940414, 55.954035585746169),
+                Point.fromLngLat(92.32209999114275, 55.953863924369216),
+                Point.fromLngLat(92.322272574529052, 55.953346509486437),
+                Point.fromLngLat(92.322428561747074, 55.953177195042372),
+                Point.fromLngLat(92.322622016072273, 55.953012574464083),
+                Point.fromLngLat(92.322826534509659, 55.952861700206995),
+                Point.fromLngLat(92.323035076260567, 55.952729852870107),
+                Point.fromLngLat(92.323239846155047, 55.952621642500162),
+                Point.fromLngLat(92.323436485603452, 55.952537907287478),
+                Point.fromLngLat(92.323622144758701, 55.952466828748584),
+                Point.fromLngLat(92.323804702609777, 55.952404970303178),
+                Point.fromLngLat(92.323972759768367, 55.952354008331895),
+                Point.fromLngLat(92.324268305674195, 55.952299777418375),
+                Point.fromLngLat(92.32440241612494, 55.952287958934903),
+                Point.fromLngLat(92.324525881558657, 55.952288545668125),
+                Point.fromLngLat(92.324631661176682, 55.952300280332565),
+                Point.fromLngLat(92.324725119397044, 55.952314361929893),
+                Point.fromLngLat(92.324815643951297, 55.952331963926554),
+                Point.fromLngLat(92.3249018099159, 55.952353673055768),
+                Point.fromLngLat(92.32498730532825, 55.952380076050758),
+                Point.fromLngLat(92.325075315311551, 55.95241142436862),
+                Point.fromLngLat(92.325948709622025, 55.952835967764258),
+                Point.fromLngLat(92.327712681144476, 55.953710032626987),
+                Point.fromLngLat(92.329753087833524, 55.954639753326774),
+                Point.fromLngLat(92.332808040082455, 55.956044560298324),
+                Point.fromLngLat(92.335855700075626, 55.957573922351003),
+                Point.fromLngLat(92.339473916217685, 55.959172267466784),
+                Point.fromLngLat(92.342732967808843, 55.960022360086441),
+                Point.fromLngLat(92.345817675814033, 55.96087739802897),
+                Point.fromLngLat(92.34829637221992, 55.961598660796881),
+                Point.fromLngLat(92.349571846425533, 55.961850201711059),
+                Point.fromLngLat(92.349781394004822, 55.961857996881008),
+                Point.fromLngLat(92.349994461983442, 55.961855063214898),
+                Point.fromLngLat(92.350199818611145, 55.961835365742445),
+                Point.fromLngLat(92.350395284593105, 55.961800999939442),
+                Point.fromLngLat(92.350584967061877, 55.961751798167825),
+                Point.fromLngLat(92.350771967321634, 55.961687257513404),
+                Point.fromLngLat(92.350959135219455, 55.961612155660987),
+                Point.fromLngLat(92.352226646617055, 55.961139416322112),
+                Point.fromLngLat(92.352497717365623, 55.961117874830961),
+                Point.fromLngLat(92.35277222469449, 55.96111779101193),
+                Point.fromLngLat(92.353056203573942, 55.96113639883697),
+                Point.fromLngLat(92.353354515507817, 55.961173865944147),
+                Point.fromLngLat(92.353644529357553, 55.961223402991891),
+                Point.fromLngLat(92.353928172960877, 55.961280651390553),
+                Point.fromLngLat(92.356302430853248, 55.961823798716068),
+                Point.fromLngLat(92.357715284451842, 55.962088331580162),
+                Point.fromLngLat(92.357992641627789, 55.962109621614218),
+                Point.fromLngLat(92.358266478404403, 55.962115656584501),
+                Point.fromLngLat(92.358539560809731, 55.962104089558125),
+                Point.fromLngLat(92.358812391757965, 55.962072405964136),
+                Point.fromLngLat(92.359085977077484, 55.962022952735424),
+                Point.fromLngLat(92.35935746692121, 55.961950700730085),
+                Point.fromLngLat(92.359601883217692, 55.961869563907385),
+                Point.fromLngLat(92.359836157411337, 55.961785577237606),
+                Point.fromLngLat(92.361802635714412, 55.960827777162194),
+                Point.fromLngLat(92.36396717838943, 55.959891770035028),
+                Point.fromLngLat(92.365927621722221, 55.959021477028728),
+                Point.fromLngLat(92.367039984092116, 55.958509761840105),
+                Point.fromLngLat(92.368657859042287, 55.95791389234364),
+                Point.fromLngLat(92.368844859302044, 55.957886567339301),
+                Point.fromLngLat(92.369032027199864, 55.95787382684648),
+                Point.fromLngLat(92.369217937812209, 55.957871228456497),
+                Point.fromLngLat(92.369400830939412, 55.957870641723275),
+                Point.fromLngLat(92.370434990152717, 55.957880700007081),
+                Point.fromLngLat(92.371293129399419, 55.957858236506581),
+                Point.fromLngLat(92.373129772022367, 55.95779319293797),
+                Point.fromLngLat(92.373694963753223, 55.957769639790058),
+                Point.fromLngLat(92.374410778284073, 55.957735609263182),
+                Point.fromLngLat(92.376354709267616, 55.957690514624119),
+                Point.fromLngLat(92.378594689071178, 55.957680456340313),
+                Point.fromLngLat(92.379404213279486, 55.957670984789729),
+                Point.fromLngLat(92.379789026454091, 55.957517428323627),
+                Point.fromLngLat(92.379768406972289, 55.957463616505265),
+                Point.fromLngLat(92.379763796925545, 55.957215344533324),
+                Point.fromLngLat(92.379714511334896, 55.9571682382375),
+                Point.fromLngLat(92.379700345918536, 55.957186259329319),
+                Point.fromLngLat(92.379730017855763, 55.957185672596097),
+                Point.fromLngLat(92.379752062261105, 55.957193886861205),
+                Point.fromLngLat(92.379874689504504, 55.957226995378733),
+                Point.fromLngLat(92.37999421544373, 55.957287596538663),
+                Point.fromLngLat(92.380077363923192, 55.957339480519295),
+                Point.fromLngLat(92.380052469670773, 55.957322549074888),
+                Point.fromLngLat(92.380080632865429, 55.957288518548012),
+                Point.fromLngLat(92.380019025877118, 55.957314670085907),
+        ))
 
 
 

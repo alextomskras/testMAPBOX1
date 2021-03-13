@@ -7,16 +7,13 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.dreamer.testmapbox1.MainActivity
 import com.dreamer.testmapbox1.R
-import com.dreamer.testmapbox1.data.trek3
+import com.dreamer.testmapbox1.data.trek1
+import com.dreamer.testmapbox1.data.trek2
 import com.dreamer.testmapbox1.data.trek5
-import com.dreamer.testmapbox1.data.trek6
-import com.dreamer.testmapbox1.data.trek7
 import com.mapbox.geojson.Feature
 import com.mapbox.geojson.FeatureCollection
 import com.mapbox.geojson.LineString
@@ -24,12 +21,10 @@ import com.mapbox.geojson.Point
 import com.mapbox.mapboxsdk.Mapbox
 import com.mapbox.mapboxsdk.maps.MapView
 import com.mapbox.mapboxsdk.maps.Style
-import com.mapbox.mapboxsdk.style.expressions.Expression
 import com.mapbox.mapboxsdk.style.layers.LineLayer
 import com.mapbox.mapboxsdk.style.layers.Property
 import com.mapbox.mapboxsdk.style.layers.PropertyFactory
 import com.mapbox.mapboxsdk.style.sources.GeoJsonSource
-import java.util.Collections.addAll
 
 
 class DashboardFragment : Fragment() {
@@ -37,13 +32,14 @@ class DashboardFragment : Fragment() {
     private lateinit var dashboardViewModel: DashboardViewModel
     private var mapView: MapView? = null
     private lateinit var activity: MainActivity
-    private var routeCoordinates: List<Point>? = null
-    private var trek2Coordinates: List<Point>? = null
-    private var trek3Coordinates: List<Point>? = null
-    private var trek4Coordinates: List<Point>? = null
-    private var trek5Coordinates: List<Point>? = null
-    private var trek6Coordinates: List<Point>? = null
-    private var trek7Coordinates: List<Point>? = null
+
+    //    private var routeCoordinates: List<Point>? = null
+//    private var trek2Coordinates: List<Point>? = null
+    private var trekCoordinates: List<Point>? = null
+//    private var trek4Coordinates: List<Point>? = null
+//    private var trek5Coordinates: List<Point>? = null
+//    private var trek6Coordinates: List<Point>? = null
+//    private var trek7Coordinates: List<Point>? = null
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
@@ -51,9 +47,9 @@ class DashboardFragment : Fragment() {
     }
 
     override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
+            inflater: LayoutInflater,
+            container: ViewGroup?,
+            savedInstanceState: Bundle?
     ): View? {
         activity?.let { Mapbox.getInstance(it, getString(R.string.mapbox_access_token)) }
         dashboardViewModel =
@@ -89,17 +85,17 @@ class DashboardFragment : Fragment() {
                 // Create the LineString from the list of coordinates and then make a GeoJSON
                 // FeatureCollection so we can add the line to our map as a layer.
                 style.addSource(
-                    GeoJsonSource(
-                        "line-source",
-                        FeatureCollection.fromFeatures(
-                            arrayOf(
-                                Feature.fromGeometry(
+                        GeoJsonSource(
+                                "line-source",
+                                FeatureCollection.fromFeatures(
+                                        arrayOf(
+                                                Feature.fromGeometry(
 //                                    LineString.fromLngLats(routeCoordinates!!)
-                                            LineString.fromLngLats(trek3Coordinates!!)
+                                                        LineString.fromLngLats(trekCoordinates!!)
+                                                )
+                                        )
                                 )
-                            )
                         )
-                    )
                 )
 
                 // The layer properties for our line. This is where we make the line dotted, set the
@@ -124,7 +120,7 @@ class DashboardFragment : Fragment() {
     private fun initRouteCoordinates() {
         // Create a list to store our line coordinates.
         // Create a list to store our line coordinates.
-        trek3Coordinates = trek6().initTrek3Coordinates()
+        trekCoordinates = trek2().initTrekCoordinates()
 
     }
 
