@@ -11,9 +11,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.dreamer.testmapbox1.MainActivity
 import com.dreamer.testmapbox1.R
-import com.dreamer.testmapbox1.data.trek1
-import com.dreamer.testmapbox1.data.trek2
-import com.dreamer.testmapbox1.data.trek5
+import com.dreamer.testmapbox1.data.*
 import com.mapbox.geojson.Feature
 import com.mapbox.geojson.FeatureCollection
 import com.mapbox.geojson.LineString
@@ -33,13 +31,9 @@ class DashboardFragment : Fragment() {
     private var mapView: MapView? = null
     private lateinit var activity: MainActivity
 
-    //    private var routeCoordinates: List<Point>? = null
-//    private var trek2Coordinates: List<Point>? = null
+
     private var trekCoordinates: List<Point>? = null
-//    private var trek4Coordinates: List<Point>? = null
-//    private var trek5Coordinates: List<Point>? = null
-//    private var trek6Coordinates: List<Point>? = null
-//    private var trek7Coordinates: List<Point>? = null
+
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
@@ -120,7 +114,7 @@ class DashboardFragment : Fragment() {
     private fun initRouteCoordinates() {
         // Create a list to store our line coordinates.
         // Create a list to store our line coordinates.
-        trekCoordinates = trek2().initTrekCoordinates()
+        trekCoordinates = trek1().initTrekCoordinates()
 
     }
 

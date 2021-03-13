@@ -4,10 +4,10 @@ import com.mapbox.geojson.Point
 
 class trek7 {
 
-    public var trek7Coord: List<Point>? = null
+//    public var trek7Coord: List<Point>? = null
 
-    public fun initTrekCoordinates(): ArrayList<Point> {
-        trek7Coord = ArrayList()
+    fun initTrekCoordinates(): ArrayList<Point> {
+//        trek7Coord = ArrayList()
 
         val trek7Coord = ArrayList(listOf<Point>(
                 Point.fromLngLat(93.379787458106875, 56.041198829188943),
@@ -500,6 +500,7 @@ class trek7 {
         ))
 
 
-        return trek7Coord as ArrayList<Point>
+        return trek7Coord
+//                as ArrayList<Point>
     }
 }
