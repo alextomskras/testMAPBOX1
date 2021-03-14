@@ -114,7 +114,7 @@ class DashboardFragment : Fragment() {
     private fun initRouteCoordinates() {
         // Create a list to store our line coordinates.
         // Create a list to store our line coordinates.
-        trekCoordinates = trek1().initTrekCoordinates()
+        trekCoordinates = trek7().initTrekCoordinates()
 
     }
 
