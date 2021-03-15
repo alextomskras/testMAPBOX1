@@ -18,6 +18,8 @@ import org.kodein.di.generic.provider
 import org.kodein.di.generic.singleton
 import com.dreamer.testmapbox1.BuildConfig;
 
+const val LENGTH_LONG = 1
+const val LENGTH_SHORT = 0
 
 class MapBoxApplication : Application(), KodeinAware {
     override val kodein = Kodein.lazy {
@@ -62,31 +64,39 @@ class MapBoxApplication : Application(), KodeinAware {
 
         // Check for first run or upgrade
         if (currentVersionCode == savedVersionCode) {
-
+            toastCreate(getString(R.string.This_is_just_a_normal_run))
             // This is just a normal run
-            Toast.makeText(
-                this,
-                getString(R.string.This_is_just_a_normal_run),
-                Toast.LENGTH_LONG
-            ).show()
+//            Toast.makeText(
+//                this,
+//                getString(R.string.This_is_just_a_normal_run),
+//                Toast.LENGTH_LONG
+//            ).show()
             return
         } else if (savedVersionCode == DOESNT_EXIST) {
-            Toast.makeText(
-                this,
-                getString(R.string.This_Is_A_new_Install),
-                Toast.LENGTH_LONG
-            ).show()
+            toastCreate(getString(R.string.This_Is_A_new_Install))
+//            Toast.makeText(
+//                this,
+//                getString(R.string.This_Is_A_new_Install),
+//                Toast.LENGTH_LONG
+//            ).show()
             //This is a new install (or the user cleared the shared preferences)
         } else if (currentVersionCode > savedVersionCode) {
-            Toast.makeText(
-                this,
-                getString(R.string.This_is_an_upgrade),
-                Toast.LENGTH_LONG
-            ).show()
+            toastCreate(getString(R.string.This_is_an_upgrade))
+//            Toast.makeText(
+//                this,
+//                getString(R.string.This_is_an_upgrade),
+//                Toast.LENGTH_LONG
+//            ).show()
             //This is an upgrade
         }
 
         // Update the shared preferences with the current version code
         prefs.edit().putInt(PREF_VERSION_CODE_KEY, currentVersionCode).apply()
     }
+
+    fun toastCreate(message: String) = Toast.makeText(
+        this,
+        message.toString().trim(),
+        Toast.LENGTH_LONG
+    ).show()
 }
