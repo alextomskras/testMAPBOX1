@@ -2,7 +2,7 @@ package com.dreamer.testmapbox1.data.provider
 
 import android.content.Context
 import android.content.SharedPreferences
-import android.preference.PreferenceManager
+import androidx.preference.PreferenceManager
 
 
 abstract class PreferenceProvider(context: Context) {

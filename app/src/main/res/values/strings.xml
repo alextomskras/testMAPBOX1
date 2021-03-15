@@ -7,5 +7,8 @@
     <string name="default_notification_channel_id">TTTTT</string>
     <string name="fcm_message">MAPBOXtest</string>
     <string name="Please_set_location_manually">Please grand permission</string>
+    <string name="This_is_just_a_normal_run">It\'s normal APP run</string>
+    <string name="This_Is_A_new_Install">This is a new install</string>
+    <string name="This_is_an_upgrade">This is an upgrade</string>
 
 </resources>

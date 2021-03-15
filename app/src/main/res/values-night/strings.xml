@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="This_is_just_a_normal_run">It\'s normal APP run</string>
+    <string name="This_Is_A_new_Install">This is a new install</string>
+    <string name="This_is_an_upgrade">This is an upgrade</string>
+</resources>

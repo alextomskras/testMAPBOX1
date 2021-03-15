@@ -3,12 +3,10 @@ package com.dreamer.testmapbox1
 
 import android.app.Application
 import android.content.Context
+import android.widget.Toast
 import androidx.preference.PreferenceManager
 import com.dreamer.testmapbox1.data.provider.LocationProvider
 import com.dreamer.testmapbox1.data.provider.LocationProviderImpl
-import com.dreamer.testmapbox1.ui.LoginActivity
-import com.dreamer.testmapbox1.ui.MainActivity
-import com.dreamer.testmapbox1.ui.RegisterActivity
 import com.google.android.gms.location.LocationServices
 import com.jakewharton.threetenabp.AndroidThreeTen
 import org.kodein.di.Kodein
@@ -18,6 +16,8 @@ import org.kodein.di.generic.bind
 import org.kodein.di.generic.instance
 import org.kodein.di.generic.provider
 import org.kodein.di.generic.singleton
+import com.dreamer.testmapbox1.BuildConfig;
+
 
 class MapBoxApplication : Application(), KodeinAware {
     override val kodein = Kodein.lazy {
@@ -45,5 +45,48 @@ class MapBoxApplication : Application(), KodeinAware {
         super.onCreate()
         AndroidThreeTen.init(this)
         PreferenceManager.setDefaultValues(this, R.xml.preferences, false)
+        checkFirstRun();
+    }
+
+    private fun checkFirstRun() {
+        val PREFS_NAME = "MyPrefsFile"
+        val PREF_VERSION_CODE_KEY = "version_code"
+        val DOESNT_EXIST = -1
+
+        // Get current version code
+        val currentVersionCode = BuildConfig.VERSION_CODE
+
+        // Get saved version code
+        val prefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE)
+        val savedVersionCode = prefs.getInt(PREF_VERSION_CODE_KEY, DOESNT_EXIST)
+
+        // Check for first run or upgrade
+        if (currentVersionCode == savedVersionCode) {
+
+            // This is just a normal run
+            Toast.makeText(
+                this,
+                getString(R.string.This_is_just_a_normal_run),
+                Toast.LENGTH_LONG
+            ).show()
+            return
+        } else if (savedVersionCode == DOESNT_EXIST) {
+            Toast.makeText(
+                this,
+                getString(R.string.This_Is_A_new_Install),
+                Toast.LENGTH_LONG
+            ).show()
+            //This is a new install (or the user cleared the shared preferences)
+        } else if (currentVersionCode > savedVersionCode) {
+            Toast.makeText(
+                this,
+                getString(R.string.This_is_an_upgrade),
+                Toast.LENGTH_LONG
+            ).show()
+            //This is an upgrade
+        }
+
+        // Update the shared preferences with the current version code
+        prefs.edit().putInt(PREF_VERSION_CODE_KEY, currentVersionCode).apply()
     }
 }
