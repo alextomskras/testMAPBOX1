@@ -9,7 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.dreamer.testmapbox1.MainActivity
+import com.dreamer.testmapbox1.ui.MainActivity
 import com.dreamer.testmapbox1.R
 import com.dreamer.testmapbox1.data.*
 import com.mapbox.geojson.Feature

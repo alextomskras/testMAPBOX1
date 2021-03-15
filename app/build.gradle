@@ -2,6 +2,12 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'com.google.gms.google-services'
+    id 'kotlin-parcelize'
+
+    id "kotlin-kapt"
+
+//    id 'androidx.navigation'
+//    id 'kotlin-android-extensions'
 }
 
 android {
@@ -16,6 +22,9 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildFeatures {
+        viewBinding true
     }
 
     buildTypes {
@@ -52,14 +61,32 @@ dependencies {
     // Add the dependency for the Firebase SDK for Google Analytics
     // When using the BoM, don't specify versions in Firebase dependencies
     implementation 'com.google.firebase:firebase-analytics-ktx'
+    // Declare the dependencies for the Firebase Cloud Messaging and Analytics libraries
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-messaging'
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
 
     //mapbox-sdk
     implementation 'com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.1'
     implementation 'androidx.annotation:annotation:1.1.0'
     implementation 'com.google.firebase:firebase-auth:19.3.1'
 
+//circle-avatarka
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.google.firebase:firebase-database-ktx:19.7.0'
+    implementation 'com.google.firebase:firebase-storage-ktx:19.2.1'
 
-    testImplementation 'junit:junit:4.+'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    // Kodein
+    implementation "org.kodein.di:kodein-di-generic-jvm:5.2.0"
+    implementation "org.kodein.di:kodein-di-framework-android-x:5.2.0"
+
+    // Better dateTime-time support even on older Android versions
+    implementation 'com.jakewharton.threetenabp:threetenabp:1.2.4'
+
+    // Preference
+    implementation 'androidx.preference:preference-ktx:1.1.1'
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 }

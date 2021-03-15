@@ -4,5 +4,8 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="mapbox_access_token">pk.eyJ1IjoicDY3ZjVyZGVsaDZqIiwiYSI6ImNrbTYxczA4MDBqenMycWp4dWdlcnA5c2gifQ.laJh7SdktYcxvrrWLJWydQ</string>
+    <string name="default_notification_channel_id">TTTTT</string>
+    <string name="fcm_message">MAPBOXtest</string>
+    <string name="Please_set_location_manually">Please grand permission</string>
 
 </resources>
