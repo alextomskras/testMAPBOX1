@@ -17,6 +17,7 @@ import org.kodein.di.generic.instance
 import org.kodein.di.generic.provider
 import org.kodein.di.generic.singleton
 import com.dreamer.testmapbox1.BuildConfig;
+import timber.log.Timber
 
 const val LENGTH_LONG = 1
 const val LENGTH_SHORT = 0
@@ -48,6 +49,7 @@ class MapBoxApplication : Application(), KodeinAware {
         AndroidThreeTen.init(this)
         PreferenceManager.setDefaultValues(this, R.xml.preferences, false)
         checkFirstRun();
+        Timber.plant(Timber.DebugTree())
     }
 
     private fun checkFirstRun() {
